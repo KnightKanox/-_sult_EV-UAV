@@ -61,7 +61,7 @@ def post_act_block(in_channels, out_channels, kernel_size, indice_key=None, stri
     m = spconv.SparseSequential(
         conv,
         norm_fn(out_channels),
-        nn.ReLU(),
+        nn.LeakyReLU(negative_slope=0.01),
     )
 
     return m
@@ -76,7 +76,7 @@ class SparseBasicBlock(spconv.SparseModule):
             inplanes, planes, kernel_size=3, stride=stride, padding=1, bias=False, indice_key=indice_key, algo=SPCONV_ALGO
         )
         self.bn1 = norm_fn(planes)
-        self.relu = nn.ReLU()
+        self.relu = nn.LeakyReLU(negative_slope=0.01)
         self.conv2 = spconv.SubMConv3d(
             planes, planes, kernel_size=3, stride=1, padding=1, bias=False, indice_key=indice_key, algo=SPCONV_ALGO
         )
@@ -116,7 +116,7 @@ class evspsegnet(nn.Module):
         self.conv_input = spconv.SparseSequential(
             spconv.SubMConv3d(input_channels, width, 3, padding=1, bias=False, indice_key='subm1', algo=SPCONV_ALGO),
             norm_fn(width),
-            nn.ReLU(),
+            nn.LeakyReLU(negative_slope=0.01),
         )
         block = post_act_block
 

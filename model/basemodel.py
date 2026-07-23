@@ -47,7 +47,7 @@ class SEModule(nn.Module):
         self.avg_pool = SparseAgvPool()
         self.fc = nn.Sequential(
             nn.Linear(channel, channel // reduction, bias=False),
-            nn.ReLU(inplace=True),
+            nn.LeakyReLU(negative_slope=0.01, inplace=True),
             nn.Linear(channel // reduction, channel, bias=False),
             nn.Sigmoid()
         )
@@ -98,13 +98,13 @@ class GDBlock(SparseModule):
         self.pwconv=spconv.SparseSequential(
             spconv.SubMConv3d(in_channels, out_channels+add_channel, kernel_size=1, padding=1, bias=bias, algo=SPCONV_ALGO),
             norm_fn(out_channels+add_channel),
-            nn.ReLU(),
+            nn.LeakyReLU(negative_slope=0.01),
         )
 
         self.gdconv=spconv.SparseSequential(
             GDConv(out_channels+add_channel,norm_fn, stride, dilations=dilations,indice_key=indice_key),
             norm_fn(out_channels+add_channel),
-            nn.ReLU(),
+            nn.LeakyReLU(negative_slope=0.01),
         )
 
         self.se = SEModule(out_channels+add_channel,reduction=2)
@@ -114,7 +114,7 @@ class GDBlock(SparseModule):
             norm_fn(out_channels),
         )
 
-        self.act = spconv.SparseSequential(nn.ReLU())
+        self.act = spconv.SparseSequential(nn.LeakyReLU(negative_slope=0.01))
 
 
     def forward(self, input):
@@ -135,6 +135,6 @@ def Downsample_block(in_channels, out_channels, kernel_size,norm_fn, stride=2, p
     m = spconv.SparseSequential(
         spconv.SparseConv3d(in_channels, out_channels, [3,3,5], stride=[2,2,4], padding=padding,bias=False,indice_key=indice_key, algo=SPCONV_ALGO),
         norm_fn(out_channels),
-        nn.ReLU(),
+        nn.LeakyReLU(negative_slope=0.01),
     )
     return m
