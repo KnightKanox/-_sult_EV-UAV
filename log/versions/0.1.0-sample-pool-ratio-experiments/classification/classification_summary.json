@@ -1,0 +1,24 @@
+{
+  "source_train_root": "/root/EV-UAV-dataset/train",
+  "source_train_npz_count": 99,
+  "existing_class_dirs_found": [],
+  "model_weight": "/root/EV-UAV/log/model_leaky_relu/best_iou_seed37.pt",
+  "prediction_threshold": 0.5,
+  "classification_basis": [
+    "No existing hard_negative/structured_background/uniform_background annotation directories were found.",
+    "All train npz files were inferred with the current LeakyReLU model best_iou weight.",
+    "Metrics recorded per sample: target_event_ratio, prediction_positive_ratio, background_false_positive_ratio, spatial_concentration, temporal_concentration, structure_score.",
+    "hard_negative: top third by background_false_positive_ratio, with prediction_positive_ratio as tie-breaker.",
+    "structured_background: among remaining samples, top half by mean spatial/temporal concentration, with prediction_positive_ratio as tie-breaker.",
+    "uniform_background: remaining lower false-positive and lower concentration samples."
+  ],
+  "thresholds": {
+    "hard_negative_min_background_false_positive_ratio": 0.004078857919782461,
+    "structured_background_min_structure_score": 0.4028543729088061
+  },
+  "class_counts": {
+    "hard_negative": 33,
+    "structured_background": 33,
+    "uniform_background": 33
+  }
+}
