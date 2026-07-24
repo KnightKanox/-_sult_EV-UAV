@@ -1,0 +1,13 @@
+pool,class,target_ratio,actual_count,actual_ratio
+A,hard_negative,0.25,25,0.25252525252525254
+A,structured_background,0.25,25,0.25252525252525254
+A,uniform_background,0.5,49,0.494949494949495
+B,hard_negative,0.35,35,0.35353535353535354
+B,structured_background,0.3,30,0.30303030303030304
+B,uniform_background,0.35,34,0.3434343434343434
+C,hard_negative,0.45,44,0.4444444444444444
+C,structured_background,0.3,30,0.30303030303030304
+C,uniform_background,0.25,25,0.25252525252525254
+D,hard_negative,0.35,35,0.35353535353535354
+D,structured_background,0.4,39,0.3939393939393939
+D,uniform_background,0.25,25,0.25252525252525254

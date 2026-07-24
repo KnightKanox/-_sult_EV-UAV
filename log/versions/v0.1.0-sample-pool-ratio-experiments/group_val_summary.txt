@@ -1,0 +1,13 @@
+Group validation results on /root/EV-UAV-dataset/val, threshold=0.9
+group      iou  seg_acc       pd       fa  threshold                                                                                model_path
+    A 0.357688 0.722758 0.804914 0.001264        0.9 /root/EV-UAV/log/versions/0.1.0-sample-pool-ratio-experiments/A/models/best_iou_seed37.pt
+    B 0.371493 0.709691 0.802184 0.000960        0.9 /root/EV-UAV/log/versions/0.1.0-sample-pool-ratio-experiments/B/models/best_iou_seed37.pt
+    C 0.344998 0.710072 0.812264 0.002371        0.9 /root/EV-UAV/log/versions/0.1.0-sample-pool-ratio-experiments/C/models/best_iou_seed37.pt
+    D 0.373111 0.717430 0.802604 0.001054        0.9 /root/EV-UAV/log/versions/0.1.0-sample-pool-ratio-experiments/D/models/best_iou_seed37.pt
+
+Training summaries:
+group  best_loss  best_iou
+    A   0.011681  0.357688
+    B   0.011268  0.371493
+    C   0.010120  0.344998
+    D   0.010694  0.373111
