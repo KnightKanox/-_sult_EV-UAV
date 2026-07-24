@@ -1,0 +1,5 @@
+Baseline model archive
+source: /root/EV-UAV/log/model/
+files:
+- best_iou_seed37.pt: validation IoU best checkpoint
+- best_loss_seed37.pt: training loss best checkpoint
