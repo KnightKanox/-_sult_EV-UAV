@@ -1,0 +1,73 @@
+# IDE / local agent files
+.trae/
+**/.trae/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+*.a
+
+# Logs and runtime outputs
+*.log
+runs/
+wandb/
+
+# Model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Large generated artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.npz
+*.npy
+*.ppm
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# Dataset folders
+train/
+val/
+test/
+EV-UAV-dataset/
+
+# Generated experiment outputs
+log/versions/**/images/
+log/versions/**/results/
+log/versions/**/models/
+log/model/
+log/model_leaky_relu/
+
+# Secrets / environment
+.env
+.env.*
+*.pem
+*.key
+credentials.json
