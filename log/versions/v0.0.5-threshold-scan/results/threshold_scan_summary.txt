@@ -1,0 +1,13 @@
+Validation threshold scan, thresholds=0.05..0.95 step=0.05
+Metrics use the EV-UAV eval logic from utils/eval.py.
+
+Same PD, compare FA (lower is better):
+PD=0.75: baseline_FA=0.0017328786291560825, leaky_FA=0.0011243439489069173, delta_FA=-0.0006085346802491651
+PD=0.8: baseline_FA=0.0025034843823640565, leaky_FA=0.0014064855750754303, delta_FA=-0.0010969988072886262
+PD=0.85: baseline_FA=0.005200860452014046, leaky_FA=0.003385177122711474, delta_FA=-0.001815683329302572
+
+Same FA, compare PD (higher is better):
+FA=0.001: baseline_PD=None, leaky_PD=None, delta_PD=None
+FA=0.002: baseline_PD=0.767331908679108, leaky_PD=0.8166509540888512, delta_PD=0.04931904540974319
+FA=0.005: baseline_PD=0.8470563291297919, leaky_PD=0.8655368459758664, delta_PD=0.018480516846074546
+FA=0.01: baseline_PD=0.8789314800658503, leaky_PD=0.8948267656203223, delta_PD=0.01589528555447195
