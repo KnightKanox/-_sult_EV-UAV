@@ -1,0 +1,279 @@
+parameter,shape,numel,requires_grad
+conv_input.0.weight,"(3, 3, 3, 12, 4)",1296,True
+conv_input.1.weight,"(12,)",12,True
+conv_input.1.bias,"(12,)",12,True
+conv1.0.0.shortcut.conv.0.weight,"(1, 1, 1, 12, 12)",144,True
+conv1.0.0.shortcut.conv.1.weight,"(12,)",12,True
+conv1.0.0.shortcut.conv.1.bias,"(12,)",12,True
+conv1.0.0.pwconv.0.weight,"(1, 1, 1, 28, 12)",336,True
+conv1.0.0.pwconv.1.weight,"(28,)",28,True
+conv1.0.0.pwconv.1.bias,"(28,)",28,True
+conv1.0.0.gdconv.0.convs.0.weight,"(3, 3, 3, 7, 7)",1323,True
+conv1.0.0.gdconv.0.convs.0.bias,"(7,)",7,True
+conv1.0.0.gdconv.0.convs.1.weight,"(3, 3, 3, 7, 7)",1323,True
+conv1.0.0.gdconv.0.convs.1.bias,"(7,)",7,True
+conv1.0.0.gdconv.0.convs.2.weight,"(3, 3, 3, 7, 7)",1323,True
+conv1.0.0.gdconv.0.convs.2.bias,"(7,)",7,True
+conv1.0.0.gdconv.0.convs.3.weight,"(3, 3, 3, 7, 7)",1323,True
+conv1.0.0.gdconv.0.convs.3.bias,"(7,)",7,True
+conv1.0.0.gdconv.1.weight,"(28,)",28,True
+conv1.0.0.gdconv.1.bias,"(28,)",28,True
+conv1.0.0.se.fc.0.weight,"(14, 28)",392,True
+conv1.0.0.se.fc.2.weight,"(28, 14)",392,True
+conv1.0.0.conv3.0.weight,"(1, 1, 1, 12, 28)",336,True
+conv1.0.0.conv3.1.weight,"(12,)",12,True
+conv1.0.0.conv3.1.bias,"(12,)",12,True
+conv1.0.1.weight,"(12,)",12,True
+conv1.0.1.bias,"(12,)",12,True
+conv2.0.0.weight,"(3, 3, 3, 24, 12)",7776,True
+conv2.0.1.weight,"(24,)",24,True
+conv2.0.1.bias,"(24,)",24,True
+conv2.1.0.shortcut.conv.0.weight,"(1, 1, 1, 24, 24)",576,True
+conv2.1.0.shortcut.conv.1.weight,"(24,)",24,True
+conv2.1.0.shortcut.conv.1.bias,"(24,)",24,True
+conv2.1.0.pwconv.0.weight,"(1, 1, 1, 40, 24)",960,True
+conv2.1.0.pwconv.1.weight,"(40,)",40,True
+conv2.1.0.pwconv.1.bias,"(40,)",40,True
+conv2.1.0.gdconv.0.convs.0.weight,"(3, 3, 3, 10, 10)",2700,True
+conv2.1.0.gdconv.0.convs.0.bias,"(10,)",10,True
+conv2.1.0.gdconv.0.convs.1.weight,"(3, 3, 3, 10, 10)",2700,True
+conv2.1.0.gdconv.0.convs.1.bias,"(10,)",10,True
+conv2.1.0.gdconv.0.convs.2.weight,"(3, 3, 3, 10, 10)",2700,True
+conv2.1.0.gdconv.0.convs.2.bias,"(10,)",10,True
+conv2.1.0.gdconv.0.convs.3.weight,"(3, 3, 3, 10, 10)",2700,True
+conv2.1.0.gdconv.0.convs.3.bias,"(10,)",10,True
+conv2.1.0.gdconv.1.weight,"(40,)",40,True
+conv2.1.0.gdconv.1.bias,"(40,)",40,True
+conv2.1.0.se.fc.0.weight,"(20, 40)",800,True
+conv2.1.0.se.fc.2.weight,"(40, 20)",800,True
+conv2.1.0.conv3.0.weight,"(1, 1, 1, 24, 40)",960,True
+conv2.1.0.conv3.1.weight,"(24,)",24,True
+conv2.1.0.conv3.1.bias,"(24,)",24,True
+conv2.1.1.weight,"(24,)",24,True
+conv2.1.1.bias,"(24,)",24,True
+pa2.multihead_attn.in_proj_weight,"(72, 24)",1728,True
+pa2.multihead_attn.in_proj_bias,"(72,)",72,True
+pa2.multihead_attn.out_proj.weight,"(24, 24)",576,True
+pa2.multihead_attn.out_proj.bias,"(24,)",24,True
+pa2.inver_layer.0.weight,"(2, 2, 4, 24, 24)",9216,True
+pa2.inver_layer.1.weight,"(2, 2, 4, 24, 24)",9216,True
+pa2.inver_layer.2.weight,"(2, 2, 4, 24, 24)",9216,True
+pa2.inver_layer.3.weight,"(2, 2, 4, 24, 24)",9216,True
+pa2.conv.weight,"(1, 1, 1, 24, 24)",576,True
+conv3.0.0.weight,"(3, 3, 3, 48, 24)",31104,True
+conv3.0.1.weight,"(48,)",48,True
+conv3.0.1.bias,"(48,)",48,True
+conv3.1.0.shortcut.conv.0.weight,"(1, 1, 1, 48, 48)",2304,True
+conv3.1.0.shortcut.conv.1.weight,"(48,)",48,True
+conv3.1.0.shortcut.conv.1.bias,"(48,)",48,True
+conv3.1.0.pwconv.0.weight,"(1, 1, 1, 56, 48)",2688,True
+conv3.1.0.pwconv.1.weight,"(56,)",56,True
+conv3.1.0.pwconv.1.bias,"(56,)",56,True
+conv3.1.0.gdconv.0.convs.0.weight,"(3, 3, 3, 14, 14)",5292,True
+conv3.1.0.gdconv.0.convs.0.bias,"(14,)",14,True
+conv3.1.0.gdconv.0.convs.1.weight,"(3, 3, 3, 14, 14)",5292,True
+conv3.1.0.gdconv.0.convs.1.bias,"(14,)",14,True
+conv3.1.0.gdconv.0.convs.2.weight,"(3, 3, 3, 14, 14)",5292,True
+conv3.1.0.gdconv.0.convs.2.bias,"(14,)",14,True
+conv3.1.0.gdconv.0.convs.3.weight,"(3, 3, 3, 14, 14)",5292,True
+conv3.1.0.gdconv.0.convs.3.bias,"(14,)",14,True
+conv3.1.0.gdconv.1.weight,"(56,)",56,True
+conv3.1.0.gdconv.1.bias,"(56,)",56,True
+conv3.1.0.se.fc.0.weight,"(28, 56)",1568,True
+conv3.1.0.se.fc.2.weight,"(56, 28)",1568,True
+conv3.1.0.conv3.0.weight,"(1, 1, 1, 48, 56)",2688,True
+conv3.1.0.conv3.1.weight,"(48,)",48,True
+conv3.1.0.conv3.1.bias,"(48,)",48,True
+conv3.1.1.weight,"(48,)",48,True
+conv3.1.1.bias,"(48,)",48,True
+pa3.multihead_attn.in_proj_weight,"(144, 48)",6912,True
+pa3.multihead_attn.in_proj_bias,"(144,)",144,True
+pa3.multihead_attn.out_proj.weight,"(48, 48)",2304,True
+pa3.multihead_attn.out_proj.bias,"(48,)",48,True
+pa3.inver_layer.0.weight,"(2, 2, 4, 48, 48)",36864,True
+pa3.inver_layer.1.weight,"(2, 2, 4, 48, 48)",36864,True
+pa3.inver_layer.2.weight,"(2, 2, 4, 48, 48)",36864,True
+pa3.conv.weight,"(1, 1, 1, 48, 48)",2304,True
+conv4.0.0.weight,"(3, 3, 3, 48, 48)",62208,True
+conv4.0.1.weight,"(48,)",48,True
+conv4.0.1.bias,"(48,)",48,True
+conv4.1.0.shortcut.conv.0.weight,"(1, 1, 1, 48, 48)",2304,True
+conv4.1.0.shortcut.conv.1.weight,"(48,)",48,True
+conv4.1.0.shortcut.conv.1.bias,"(48,)",48,True
+conv4.1.0.pwconv.0.weight,"(1, 1, 1, 48, 48)",2304,True
+conv4.1.0.pwconv.1.weight,"(48,)",48,True
+conv4.1.0.pwconv.1.bias,"(48,)",48,True
+conv4.1.0.gdconv.0.convs.0.weight,"(3, 3, 3, 12, 12)",3888,True
+conv4.1.0.gdconv.0.convs.0.bias,"(12,)",12,True
+conv4.1.0.gdconv.0.convs.1.weight,"(3, 3, 3, 12, 12)",3888,True
+conv4.1.0.gdconv.0.convs.1.bias,"(12,)",12,True
+conv4.1.0.gdconv.0.convs.2.weight,"(3, 3, 3, 12, 12)",3888,True
+conv4.1.0.gdconv.0.convs.2.bias,"(12,)",12,True
+conv4.1.0.gdconv.0.convs.3.weight,"(3, 3, 3, 12, 12)",3888,True
+conv4.1.0.gdconv.0.convs.3.bias,"(12,)",12,True
+conv4.1.0.gdconv.1.weight,"(48,)",48,True
+conv4.1.0.gdconv.1.bias,"(48,)",48,True
+conv4.1.0.se.fc.0.weight,"(24, 48)",1152,True
+conv4.1.0.se.fc.2.weight,"(48, 24)",1152,True
+conv4.1.0.conv3.0.weight,"(1, 1, 1, 48, 48)",2304,True
+conv4.1.0.conv3.1.weight,"(48,)",48,True
+conv4.1.0.conv3.1.bias,"(48,)",48,True
+conv4.1.1.weight,"(48,)",48,True
+conv4.1.1.bias,"(48,)",48,True
+pa4.multihead_attn.in_proj_weight,"(144, 48)",6912,True
+pa4.multihead_attn.in_proj_bias,"(144,)",144,True
+pa4.multihead_attn.out_proj.weight,"(48, 48)",2304,True
+pa4.multihead_attn.out_proj.bias,"(48,)",48,True
+pa4.inver_layer.0.weight,"(2, 2, 4, 48, 48)",36864,True
+pa4.inver_layer.1.weight,"(2, 2, 4, 48, 48)",36864,True
+pa4.conv.weight,"(1, 1, 1, 48, 48)",2304,True
+conv_up_t4.conv1.weight,"(3, 3, 3, 48, 48)",62208,True
+conv_up_t4.bn1.weight,"(48,)",48,True
+conv_up_t4.bn1.bias,"(48,)",48,True
+conv_up_t4.conv2.weight,"(3, 3, 3, 48, 48)",62208,True
+conv_up_t4.bn2.weight,"(48,)",48,True
+conv_up_t4.bn2.bias,"(48,)",48,True
+conv_up_m4.0.shortcut.conv.0.weight,"(1, 1, 1, 48, 96)",4608,True
+conv_up_m4.0.shortcut.conv.1.weight,"(48,)",48,True
+conv_up_m4.0.shortcut.conv.1.bias,"(48,)",48,True
+conv_up_m4.0.pwconv.0.weight,"(1, 1, 1, 64, 96)",6144,True
+conv_up_m4.0.pwconv.1.weight,"(64,)",64,True
+conv_up_m4.0.pwconv.1.bias,"(64,)",64,True
+conv_up_m4.0.gdconv.0.convs.0.weight,"(3, 3, 3, 16, 16)",6912,True
+conv_up_m4.0.gdconv.0.convs.0.bias,"(16,)",16,True
+conv_up_m4.0.gdconv.0.convs.1.weight,"(3, 3, 3, 16, 16)",6912,True
+conv_up_m4.0.gdconv.0.convs.1.bias,"(16,)",16,True
+conv_up_m4.0.gdconv.0.convs.2.weight,"(3, 3, 3, 16, 16)",6912,True
+conv_up_m4.0.gdconv.0.convs.2.bias,"(16,)",16,True
+conv_up_m4.0.gdconv.0.convs.3.weight,"(3, 3, 3, 16, 16)",6912,True
+conv_up_m4.0.gdconv.0.convs.3.bias,"(16,)",16,True
+conv_up_m4.0.gdconv.1.weight,"(64,)",64,True
+conv_up_m4.0.gdconv.1.bias,"(64,)",64,True
+conv_up_m4.0.se.fc.0.weight,"(32, 64)",2048,True
+conv_up_m4.0.se.fc.2.weight,"(64, 32)",2048,True
+conv_up_m4.0.conv3.0.weight,"(1, 1, 1, 48, 64)",3072,True
+conv_up_m4.0.conv3.1.weight,"(48,)",48,True
+conv_up_m4.0.conv3.1.bias,"(48,)",48,True
+conv_up_m4.1.weight,"(48,)",48,True
+conv_up_m4.1.bias,"(48,)",48,True
+inv_conv4.0.weight,"(3, 3, 3, 48, 48)",62208,True
+inv_conv4.1.weight,"(48,)",48,True
+inv_conv4.1.bias,"(48,)",48,True
+conv_up_t3.conv1.weight,"(3, 3, 3, 48, 48)",62208,True
+conv_up_t3.bn1.weight,"(48,)",48,True
+conv_up_t3.bn1.bias,"(48,)",48,True
+conv_up_t3.conv2.weight,"(3, 3, 3, 48, 48)",62208,True
+conv_up_t3.bn2.weight,"(48,)",48,True
+conv_up_t3.bn2.bias,"(48,)",48,True
+conv_up_m3.0.shortcut.conv.0.weight,"(1, 1, 1, 48, 96)",4608,True
+conv_up_m3.0.shortcut.conv.1.weight,"(48,)",48,True
+conv_up_m3.0.shortcut.conv.1.bias,"(48,)",48,True
+conv_up_m3.0.pwconv.0.weight,"(1, 1, 1, 64, 96)",6144,True
+conv_up_m3.0.pwconv.1.weight,"(64,)",64,True
+conv_up_m3.0.pwconv.1.bias,"(64,)",64,True
+conv_up_m3.0.gdconv.0.convs.0.weight,"(3, 3, 3, 16, 16)",6912,True
+conv_up_m3.0.gdconv.0.convs.0.bias,"(16,)",16,True
+conv_up_m3.0.gdconv.0.convs.1.weight,"(3, 3, 3, 16, 16)",6912,True
+conv_up_m3.0.gdconv.0.convs.1.bias,"(16,)",16,True
+conv_up_m3.0.gdconv.0.convs.2.weight,"(3, 3, 3, 16, 16)",6912,True
+conv_up_m3.0.gdconv.0.convs.2.bias,"(16,)",16,True
+conv_up_m3.0.gdconv.0.convs.3.weight,"(3, 3, 3, 16, 16)",6912,True
+conv_up_m3.0.gdconv.0.convs.3.bias,"(16,)",16,True
+conv_up_m3.0.gdconv.1.weight,"(64,)",64,True
+conv_up_m3.0.gdconv.1.bias,"(64,)",64,True
+conv_up_m3.0.se.fc.0.weight,"(32, 64)",2048,True
+conv_up_m3.0.se.fc.2.weight,"(64, 32)",2048,True
+conv_up_m3.0.conv3.0.weight,"(1, 1, 1, 48, 64)",3072,True
+conv_up_m3.0.conv3.1.weight,"(48,)",48,True
+conv_up_m3.0.conv3.1.bias,"(48,)",48,True
+conv_up_m3.1.weight,"(48,)",48,True
+conv_up_m3.1.bias,"(48,)",48,True
+inv_conv3.0.weight,"(3, 3, 3, 24, 48)",31104,True
+inv_conv3.1.weight,"(24,)",24,True
+inv_conv3.1.bias,"(24,)",24,True
+conv_up_t2.conv1.weight,"(3, 3, 3, 24, 24)",15552,True
+conv_up_t2.bn1.weight,"(24,)",24,True
+conv_up_t2.bn1.bias,"(24,)",24,True
+conv_up_t2.conv2.weight,"(3, 3, 3, 24, 24)",15552,True
+conv_up_t2.bn2.weight,"(24,)",24,True
+conv_up_t2.bn2.bias,"(24,)",24,True
+conv_up_m2.0.shortcut.conv.0.weight,"(1, 1, 1, 24, 48)",1152,True
+conv_up_m2.0.shortcut.conv.1.weight,"(24,)",24,True
+conv_up_m2.0.shortcut.conv.1.bias,"(24,)",24,True
+conv_up_m2.0.pwconv.0.weight,"(1, 1, 1, 40, 48)",1920,True
+conv_up_m2.0.pwconv.1.weight,"(40,)",40,True
+conv_up_m2.0.pwconv.1.bias,"(40,)",40,True
+conv_up_m2.0.gdconv.0.convs.0.weight,"(3, 3, 3, 10, 10)",2700,True
+conv_up_m2.0.gdconv.0.convs.0.bias,"(10,)",10,True
+conv_up_m2.0.gdconv.0.convs.1.weight,"(3, 3, 3, 10, 10)",2700,True
+conv_up_m2.0.gdconv.0.convs.1.bias,"(10,)",10,True
+conv_up_m2.0.gdconv.0.convs.2.weight,"(3, 3, 3, 10, 10)",2700,True
+conv_up_m2.0.gdconv.0.convs.2.bias,"(10,)",10,True
+conv_up_m2.0.gdconv.0.convs.3.weight,"(3, 3, 3, 10, 10)",2700,True
+conv_up_m2.0.gdconv.0.convs.3.bias,"(10,)",10,True
+conv_up_m2.0.gdconv.1.weight,"(40,)",40,True
+conv_up_m2.0.gdconv.1.bias,"(40,)",40,True
+conv_up_m2.0.se.fc.0.weight,"(20, 40)",800,True
+conv_up_m2.0.se.fc.2.weight,"(40, 20)",800,True
+conv_up_m2.0.conv3.0.weight,"(1, 1, 1, 24, 40)",960,True
+conv_up_m2.0.conv3.1.weight,"(24,)",24,True
+conv_up_m2.0.conv3.1.bias,"(24,)",24,True
+conv_up_m2.1.weight,"(24,)",24,True
+conv_up_m2.1.bias,"(24,)",24,True
+inv_conv2.0.weight,"(3, 3, 3, 12, 24)",7776,True
+inv_conv2.1.weight,"(12,)",12,True
+inv_conv2.1.bias,"(12,)",12,True
+conv_up_t1.conv1.weight,"(3, 3, 3, 12, 12)",3888,True
+conv_up_t1.bn1.weight,"(12,)",12,True
+conv_up_t1.bn1.bias,"(12,)",12,True
+conv_up_t1.conv2.weight,"(3, 3, 3, 12, 12)",3888,True
+conv_up_t1.bn2.weight,"(12,)",12,True
+conv_up_t1.bn2.bias,"(12,)",12,True
+conv_up_m1.0.shortcut.conv.0.weight,"(1, 1, 1, 12, 24)",288,True
+conv_up_m1.0.shortcut.conv.1.weight,"(12,)",12,True
+conv_up_m1.0.shortcut.conv.1.bias,"(12,)",12,True
+conv_up_m1.0.pwconv.0.weight,"(1, 1, 1, 28, 24)",672,True
+conv_up_m1.0.pwconv.1.weight,"(28,)",28,True
+conv_up_m1.0.pwconv.1.bias,"(28,)",28,True
+conv_up_m1.0.gdconv.0.convs.0.weight,"(3, 3, 3, 7, 7)",1323,True
+conv_up_m1.0.gdconv.0.convs.0.bias,"(7,)",7,True
+conv_up_m1.0.gdconv.0.convs.1.weight,"(3, 3, 3, 7, 7)",1323,True
+conv_up_m1.0.gdconv.0.convs.1.bias,"(7,)",7,True
+conv_up_m1.0.gdconv.0.convs.2.weight,"(3, 3, 3, 7, 7)",1323,True
+conv_up_m1.0.gdconv.0.convs.2.bias,"(7,)",7,True
+conv_up_m1.0.gdconv.0.convs.3.weight,"(3, 3, 3, 7, 7)",1323,True
+conv_up_m1.0.gdconv.0.convs.3.bias,"(7,)",7,True
+conv_up_m1.0.gdconv.1.weight,"(28,)",28,True
+conv_up_m1.0.gdconv.1.bias,"(28,)",28,True
+conv_up_m1.0.se.fc.0.weight,"(14, 28)",392,True
+conv_up_m1.0.se.fc.2.weight,"(28, 14)",392,True
+conv_up_m1.0.conv3.0.weight,"(1, 1, 1, 12, 28)",336,True
+conv_up_m1.0.conv3.1.weight,"(12,)",12,True
+conv_up_m1.0.conv3.1.bias,"(12,)",12,True
+conv_up_m1.1.weight,"(12,)",12,True
+conv_up_m1.1.bias,"(12,)",12,True
+conv5.0.0.shortcut.conv.0.weight,"(1, 1, 1, 12, 12)",144,True
+conv5.0.0.shortcut.conv.1.weight,"(12,)",12,True
+conv5.0.0.shortcut.conv.1.bias,"(12,)",12,True
+conv5.0.0.pwconv.0.weight,"(1, 1, 1, 28, 12)",336,True
+conv5.0.0.pwconv.1.weight,"(28,)",28,True
+conv5.0.0.pwconv.1.bias,"(28,)",28,True
+conv5.0.0.gdconv.0.convs.0.weight,"(3, 3, 3, 7, 7)",1323,True
+conv5.0.0.gdconv.0.convs.0.bias,"(7,)",7,True
+conv5.0.0.gdconv.0.convs.1.weight,"(3, 3, 3, 7, 7)",1323,True
+conv5.0.0.gdconv.0.convs.1.bias,"(7,)",7,True
+conv5.0.0.gdconv.0.convs.2.weight,"(3, 3, 3, 7, 7)",1323,True
+conv5.0.0.gdconv.0.convs.2.bias,"(7,)",7,True
+conv5.0.0.gdconv.0.convs.3.weight,"(3, 3, 3, 7, 7)",1323,True
+conv5.0.0.gdconv.0.convs.3.bias,"(7,)",7,True
+conv5.0.0.gdconv.1.weight,"(28,)",28,True
+conv5.0.0.gdconv.1.bias,"(28,)",28,True
+conv5.0.0.se.fc.0.weight,"(14, 28)",392,True
+conv5.0.0.se.fc.2.weight,"(28, 14)",392,True
+conv5.0.0.conv3.0.weight,"(1, 1, 1, 12, 28)",336,True
+conv5.0.0.conv3.1.weight,"(12,)",12,True
+conv5.0.0.conv3.1.bias,"(12,)",12,True
+conv5.0.1.weight,"(12,)",12,True
+conv5.0.1.bias,"(12,)",12,True
+semantic_linear.0.weight,"(1, 12)",12,True
+semantic_linear.0.bias,"(1,)",1,True

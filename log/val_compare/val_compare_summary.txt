@@ -1,0 +1,20 @@
+Validation Set (val, 24 samples) Comparison
+==================================================
+
+baseline_ReLU:
+  IoU: 0.323996
+  Seg Acc: 0.717247
+  PD: 0.813524
+  FA: 0.002712
+
+LeakyReLU:
+  IoU: 0.351111
+  Seg Acc: 0.710027
+  PD: 0.796304
+  FA: 0.001275
+
+Delta (LeakyReLU - Baseline):
+  IoU: +0.027115
+  Seg Acc: -0.007221
+  PD: -0.017220
+  FA: -0.001437

@@ -1,0 +1,10 @@
+experiment=LeakyReLU
+epochs_config=50
+batch_size=1
+max_events_num=20000
+loss_observations=9950
+total_params=943749
+trainable_params=943749
+model_save_root=/root/EV-UAV/log/model_leaky_relu
+first_epoch_mean_loss=0.2344773869346734
+last_epoch_mean_loss=0.023061306532663358
