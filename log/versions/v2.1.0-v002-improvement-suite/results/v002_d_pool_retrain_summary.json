@@ -1,0 +1,7 @@
+{
+  "variant": "v002_d_pool_retrain",
+  "best_loss": 0.011737421154975891,
+  "best_iou": 0.6426620015337423,
+  "model_dir": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/models/v002_d_pool_retrain",
+  "config": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/configs/v002_d_pool_retrain.yaml"
+}

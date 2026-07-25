@@ -1,0 +1,30 @@
+{
+  "best_variant": {
+    "variant": "v002_slope_0p005",
+    "negative_slope": "0.005",
+    "pos_weight": "1.0",
+    "dice_weight": "0.0",
+    "k": "3",
+    "t": "5",
+    "best_epoch": "49",
+    "iou": 0.652904051277635,
+    "seg_acc": "0.8101547949806125",
+    "pd": "0.8628727425451491",
+    "fa": "0.00010876072853037739",
+    "model_path": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/models/v002_slope_0p005/best_iou_seed37.pt",
+    "summary_path": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/v002_slope_0p005_summary.json"
+  },
+  "baseline_v002": {
+    "variant": "v0.0.2_leaky_relu",
+    "iou": 0.351111,
+    "seg_acc": 0.710027,
+    "pd": 0.796304,
+    "fa": 0.001275
+  },
+  "submission": {
+    "zip_path": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/submission/v002_slope_0p005_best_submission.zip",
+    "file_count": 24,
+    "has_nested_dir": false,
+    "valid_file_count": true
+  }
+}

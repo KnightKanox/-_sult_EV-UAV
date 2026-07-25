@@ -1,0 +1,7 @@
+{
+  "variant": "v002_recall_pos2_dice02",
+  "best_loss": 0.02859761379659176,
+  "best_iou": 0.6286086966559314,
+  "model_dir": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/models/v002_recall_pos2_dice02",
+  "config": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/configs/v002_recall_pos2_dice02.yaml"
+}

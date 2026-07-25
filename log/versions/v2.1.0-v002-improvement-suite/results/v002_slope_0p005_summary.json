@@ -1,0 +1,7 @@
+{
+  "variant": "v002_slope_0p005",
+  "best_loss": 0.01223120279610157,
+  "best_iou": 0.652904051277635,
+  "model_dir": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/models/v002_slope_0p005",
+  "config": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/configs/v002_slope_0p005.yaml"
+}

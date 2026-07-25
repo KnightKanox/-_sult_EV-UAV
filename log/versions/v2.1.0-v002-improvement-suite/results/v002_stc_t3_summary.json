@@ -1,0 +1,7 @@
+{
+  "variant": "v002_stc_t3",
+  "best_loss": 0.012094967998564243,
+  "best_iou": 0.6209233425092148,
+  "model_dir": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/models/v002_stc_t3",
+  "config": "/root/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/configs/v002_stc_t3.yaml"
+}
