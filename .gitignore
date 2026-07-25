@@ -3,6 +3,30 @@ result/
 /result/
 ../result/
 
+# Generated experiment artifacts
+log/versions/**/images/
+log/versions/**/masks/
+log/versions/**/maps/
+log/versions/**/predictions/
+log/versions/**/submission/
+log/versions/**/archive/
+log/versions/**/gt_vs_prediction/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+*.npy
+*.png
+*.jpg
+*.jpeg
+*.ppm
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
 # Git / Python transient files
 .git/
 __pycache__/

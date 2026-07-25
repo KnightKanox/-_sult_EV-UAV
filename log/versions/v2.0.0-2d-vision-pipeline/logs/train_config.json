@@ -1,0 +1,17 @@
+{
+  "version": "v2.0.0",
+  "model": "SmallUNet (U-Net binary semantic segmentation)",
+  "classes": {
+    "0": "background",
+    "1": "target"
+  },
+  "threshold": 0.5,
+  "epochs": 50,
+  "batch_size": 4,
+  "learning_rate": 0.001,
+  "seed": 37,
+  "device": "cuda",
+  "pos_weight": 50.0,
+  "weight_path": "/root/EV-UAV/log/versions/v2.0.0-2d-vision-pipeline/model/small_unet_final.pt",
+  "train_seconds": 73.016
+}
