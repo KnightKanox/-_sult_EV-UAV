@@ -1,8 +1,10 @@
-# IDE / local agent files
-.trae/
-**/.trae/
+# Keep submission outputs out of the repository
+result/
+/result/
+../result/
 
-# Python cache
+# Git / Python transient files
+.git/
 __pycache__/
 *.py[cod]
 *.pyo
@@ -11,61 +13,11 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
-# Virtual environments
+# Local environments and secrets
 .venv/
 venv/
 env/
 ENV/
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-*.so
-*.o
-*.a
-
-# Logs and runtime outputs
-*.log
-runs/
-wandb/
-
-# Model checkpoints / weights
-*.pt
-*.pth
-*.ckpt
-*.onnx
-
-# Large generated artifacts
-*.zip
-*.tar
-*.tar.gz
-*.tgz
-*.7z
-*.npz
-*.npy
-*.ppm
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.tif
-*.tiff
-
-# Dataset folders
-train/
-val/
-test/
-EV-UAV-dataset/
-
-# Generated experiment outputs
-log/versions/**/images/
-log/versions/**/results/
-log/versions/**/models/
-log/model/
-log/model_leaky_relu/
-
-# Secrets / environment
 .env
 .env.*
 *.pem

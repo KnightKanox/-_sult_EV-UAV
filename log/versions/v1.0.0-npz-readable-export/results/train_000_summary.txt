@@ -1,0 +1,20 @@
+train_000.npz readable summary
+source: /media/sult/山江冬夏/训练集、验证集/train/train_000.npz
+
+members:
+  - evs_norm.npy: shape=(39169, 6), dtype=float32, fortran_order=True
+  - ev_loc.npy: shape=(39169, 3), dtype=int64, fortran_order=True
+  - ev.npy: shape=(39169,), dtype=[('x','<i2'),('y','<i2'),('t','<f8'),('p','|i1'),('label','|i1'),('name','|i1')]
+
+first 10 ev rows:
+x,y,t,p,label,name
+76,226,0.0,1,1,1
+76,224,0.166,0,1,1
+75,224,1.108,0,1,1
+77,224,1.613,0,1,1
+225,5,10.453,1,0,0
+226,6,10.476,1,0,0
+90,8,10.542,1,0,0
+40,11,10.655,1,0,0
+96,12,10.687,1,0,0
+240,15,10.789,1,0,0

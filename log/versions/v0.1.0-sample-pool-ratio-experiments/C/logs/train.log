@@ -1,0 +1,53 @@
+2026-07-24 12:42:56,929 INFO Start group C training with config /root/EV-UAV/log/versions/0.1.0-sample-pool-ratio-experiments/C/config.yaml
+2026-07-24 12:42:56,929 INFO epochs=50 batch_size=1 train_root=/root/EV-UAV/log/versions/0.1.0-sample-pool-ratio-experiments/C model_save_root=/root/EV-UAV/log/versions/0.1.0-sample-pool-ratio-experiments/C/models
+2026-07-24 12:43:13,161 INFO group=C epoch=0 mean_loss=0.231116 best_loss=0.170796
+2026-07-24 12:43:28,821 INFO group=C epoch=1 mean_loss=0.147143 best_loss=0.110140
+2026-07-24 12:43:44,578 INFO group=C epoch=2 mean_loss=0.101987 best_loss=0.074732
+2026-07-24 12:44:00,149 INFO group=C epoch=3 mean_loss=0.073908 best_loss=0.053502
+2026-07-24 12:44:15,656 INFO group=C epoch=4 mean_loss=0.056742 best_loss=0.041611
+2026-07-24 12:44:31,140 INFO group=C epoch=5 mean_loss=0.048015 best_loss=0.034010
+2026-07-24 12:44:46,725 INFO group=C epoch=6 mean_loss=0.038708 best_loss=0.025162
+2026-07-24 12:45:02,357 INFO group=C epoch=7 mean_loss=0.033623 best_loss=0.020819
+2026-07-24 12:45:17,920 INFO group=C epoch=8 mean_loss=0.029748 best_loss=0.018178
+2026-07-24 12:45:33,508 INFO group=C epoch=9 mean_loss=0.027962 best_loss=0.015283
+2026-07-24 12:45:49,026 INFO group=C epoch=10 mean_loss=0.025313 best_loss=0.013932
+2026-07-24 12:46:04,455 INFO group=C epoch=11 mean_loss=0.024804 best_loss=0.013199
+2026-07-24 12:46:19,834 INFO group=C epoch=12 mean_loss=0.024379 best_loss=0.013173
+2026-07-24 12:46:35,357 INFO group=C epoch=13 mean_loss=0.024029 best_loss=0.012571
+2026-07-24 12:46:50,738 INFO group=C epoch=14 mean_loss=0.023674 best_loss=0.012437
+2026-07-24 12:47:06,191 INFO group=C epoch=15 mean_loss=0.023362 best_loss=0.011936
+2026-07-24 12:47:21,694 INFO group=C epoch=16 mean_loss=0.023036 best_loss=0.011833
+2026-07-24 12:47:37,090 INFO group=C epoch=17 mean_loss=0.022901 best_loss=0.011833
+2026-07-24 12:47:52,669 INFO group=C epoch=18 mean_loss=0.022680 best_loss=0.011171
+2026-07-24 12:48:08,081 INFO group=C epoch=19 mean_loss=0.022267 best_loss=0.011171
+2026-07-24 12:48:23,523 INFO group=C epoch=20 mean_loss=0.022080 best_loss=0.010851
+2026-07-24 12:48:38,998 INFO group=C epoch=21 mean_loss=0.021977 best_loss=0.010851
+2026-07-24 12:48:54,690 INFO group=C epoch=22 mean_loss=0.021866 best_loss=0.010701
+2026-07-24 12:49:09,810 INFO group=C epoch=23 mean_loss=0.021890 best_loss=0.010519
+2026-07-24 12:49:24,998 INFO group=C epoch=24 mean_loss=0.021965 best_loss=0.010519
+2026-07-24 12:49:40,367 INFO group=C epoch=25 mean_loss=0.021814 best_loss=0.010519
+2026-07-24 12:49:55,997 INFO group=C epoch=26 mean_loss=0.021732 best_loss=0.010519
+2026-07-24 12:50:11,788 INFO group=C epoch=27 mean_loss=0.021716 best_loss=0.010120
+2026-07-24 12:50:27,584 INFO group=C epoch=28 mean_loss=0.021744 best_loss=0.010120
+2026-07-24 12:50:43,370 INFO group=C epoch=29 mean_loss=0.021749 best_loss=0.010120
+2026-07-24 12:50:59,138 INFO group=C epoch=30 mean_loss=0.021611 best_loss=0.010120
+2026-07-24 12:51:14,588 INFO group=C epoch=31 mean_loss=0.021671 best_loss=0.010120
+2026-07-24 12:51:30,056 INFO group=C epoch=32 mean_loss=0.021684 best_loss=0.010120
+2026-07-24 12:51:45,558 INFO group=C epoch=33 mean_loss=0.021540 best_loss=0.010120
+2026-07-24 12:52:01,179 INFO group=C epoch=34 mean_loss=0.021654 best_loss=0.010120
+2026-07-24 12:52:16,597 INFO group=C epoch=35 mean_loss=0.021640 best_loss=0.010120
+2026-07-24 12:52:32,135 INFO group=C epoch=36 mean_loss=0.021672 best_loss=0.010120
+2026-07-24 12:52:47,553 INFO group=C epoch=37 mean_loss=0.021676 best_loss=0.010120
+2026-07-24 12:53:02,918 INFO group=C epoch=38 mean_loss=0.021647 best_loss=0.010120
+2026-07-24 12:53:18,345 INFO group=C epoch=39 mean_loss=0.021691 best_loss=0.010120
+2026-07-24 12:53:43,463 INFO group=C epoch=40 mean_loss=0.021685 best_loss=0.010120 val_iou=0.343449
+2026-07-24 12:54:08,002 INFO group=C epoch=41 mean_loss=0.021704 best_loss=0.010120 val_iou=0.342883
+2026-07-24 12:54:32,852 INFO group=C epoch=42 mean_loss=0.021575 best_loss=0.010120 val_iou=0.340587
+2026-07-24 12:54:57,735 INFO group=C epoch=43 mean_loss=0.021616 best_loss=0.010120 val_iou=0.342637
+2026-07-24 12:55:22,012 INFO group=C epoch=44 mean_loss=0.021632 best_loss=0.010120 val_iou=0.341392
+2026-07-24 12:55:46,025 INFO group=C epoch=45 mean_loss=0.021671 best_loss=0.010120 val_iou=0.344998
+2026-07-24 12:56:10,022 INFO group=C epoch=46 mean_loss=0.021608 best_loss=0.010120 val_iou=0.344390
+2026-07-24 12:56:34,322 INFO group=C epoch=47 mean_loss=0.021597 best_loss=0.010120 val_iou=0.341985
+2026-07-24 12:56:58,360 INFO group=C epoch=48 mean_loss=0.021521 best_loss=0.010120 val_iou=0.340499
+2026-07-24 12:57:23,305 INFO group=C epoch=49 mean_loss=0.021752 best_loss=0.010120 val_iou=0.342081
+2026-07-24 12:57:23,316 INFO Finished group C best_loss=0.010120 best_iou=0.344998
