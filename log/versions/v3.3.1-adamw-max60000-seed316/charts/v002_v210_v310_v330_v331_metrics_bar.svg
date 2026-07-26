@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="760" viewBox="0 0 1120 760" role="img" aria-label="v002 v210 v310 v330 v331 metrics comparison">
+  <style>
+    text { font-family: Arial, sans-serif; fill: #222; }
+    .title { font-size: 24px; font-weight: 700; }
+    .subtitle { font-size: 13px; fill: #555; }
+    .panel-title { font-size: 16px; font-weight: 700; }
+    .axis { stroke: #333; stroke-width: 1; }
+    .grid { stroke: #ddd; stroke-width: 1; }
+    .label { font-size: 12px; }
+    .value { font-size: 11px; fill: #222; }
+    .best { font-weight: 700; }
+  </style>
+  <rect x="0" y="0" width="1120" height="760" fill="#fff"/>
+  <text x="40" y="38" class="title">v002 / v210 / v310 / v330 / v331 指标对比</text>
+  <text x="40" y="62" class="subtitle">IoU、seg_acc、PD 越高越好；FA 越低越好。数值来自各版本 validation/final summary。</text>
+
+  <g transform="translate(50,100)">
+    <text x="0" y="0" class="panel-title">IoU（越高越好，best: v210）</text>
+    <line x1="0" y1="220" x2="470" y2="220" class="axis"/>
+    <line x1="0" y1="0" x2="0" y2="220" class="axis"/>
+    <line x1="0" y1="110" x2="470" y2="110" class="grid"/>
+    <rect x="25" y="101" width="58" height="119" fill="#9aa6b2"/><text x="54" y="238" text-anchor="middle" class="label">v002</text><text x="54" y="96" text-anchor="middle" class="value">0.351111</text>
+    <rect x="112" y="0" width="58" height="220" fill="#2f80ed"/><text x="141" y="238" text-anchor="middle" class="label best">v210</text><text x="141" y="-6" text-anchor="middle" class="value best">0.652904</text>
+    <rect x="199" y="36" width="58" height="184" fill="#27ae60"/><text x="228" y="238" text-anchor="middle" class="label">v310</text><text x="228" y="31" text-anchor="middle" class="value">0.546578</text>
+    <rect x="286" y="30" width="58" height="190" fill="#f2994a"/><text x="315" y="238" text-anchor="middle" class="label">v330</text><text x="315" y="25" text-anchor="middle" class="value">0.564238</text>
+    <rect x="373" y="75" width="58" height="145" fill="#eb5757"/><text x="402" y="238" text-anchor="middle" class="label">v331</text><text x="402" y="70" text-anchor="middle" class="value">0.429277</text>
+  </g>
+
+  <g transform="translate(600,100)">
+    <text x="0" y="0" class="panel-title">seg_acc（越高越好，best: v310）</text>
+    <line x1="0" y1="220" x2="470" y2="220" class="axis"/>
+    <line x1="0" y1="0" x2="0" y2="220" class="axis"/>
+    <line x1="0" y1="110" x2="470" y2="110" class="grid"/>
+    <rect x="25" y="33" width="58" height="187" fill="#9aa6b2"/><text x="54" y="238" text-anchor="middle" class="label">v002</text><text x="54" y="28" text-anchor="middle" class="value">0.710027</text>
+    <rect x="112" y="7" width="58" height="213" fill="#2f80ed"/><text x="141" y="238" text-anchor="middle" class="label">v210</text><text x="141" y="2" text-anchor="middle" class="value">0.810155</text>
+    <rect x="199" y="0" width="58" height="220" fill="#27ae60"/><text x="228" y="238" text-anchor="middle" class="label best">v310</text><text x="228" y="-6" text-anchor="middle" class="value best">0.836397</text>
+    <rect x="286" y="3" width="58" height="217" fill="#f2994a"/><text x="315" y="238" text-anchor="middle" class="label">v330</text><text x="315" y="-2" text-anchor="middle" class="value">0.826321</text>
+    <rect x="373" y="2" width="58" height="218" fill="#eb5757"/><text x="402" y="238" text-anchor="middle" class="label">v331</text><text x="402" y="-3" text-anchor="middle" class="value">0.827833</text>
+  </g>
+
+  <g transform="translate(50,430)">
+    <text x="0" y="0" class="panel-title">PD（越高越好，best: v210）</text>
+    <line x1="0" y1="220" x2="470" y2="220" class="axis"/>
+    <line x1="0" y1="0" x2="0" y2="220" class="axis"/>
+    <line x1="0" y1="110" x2="470" y2="110" class="grid"/>
+    <rect x="25" y="17" width="58" height="203" fill="#9aa6b2"/><text x="54" y="238" text-anchor="middle" class="label">v002</text><text x="54" y="12" text-anchor="middle" class="value">0.796304</text>
+    <rect x="112" y="0" width="58" height="220" fill="#2f80ed"/><text x="141" y="238" text-anchor="middle" class="label best">v210</text><text x="141" y="-6" text-anchor="middle" class="value best">0.862873</text>
+    <rect x="199" y="4" width="58" height="216" fill="#27ae60"/><text x="228" y="238" text-anchor="middle" class="label">v310</text><text x="228" y="-1" text-anchor="middle" class="value">0.848173</text>
+    <rect x="286" y="6" width="58" height="214" fill="#f2994a"/><text x="315" y="238" text-anchor="middle" class="label">v330</text><text x="315" y="1" text-anchor="middle" class="value">0.838723</text>
+    <rect x="373" y="6" width="58" height="214" fill="#eb5757"/><text x="402" y="238" text-anchor="middle" class="label">v331</text><text x="402" y="1" text-anchor="middle" class="value">0.838303</text>
+  </g>
+
+  <g transform="translate(600,430)">
+    <text x="0" y="0" class="panel-title">FA（越低越好，best: v210）</text>
+    <line x1="0" y1="220" x2="470" y2="220" class="axis"/>
+    <line x1="0" y1="0" x2="0" y2="220" class="axis"/>
+    <line x1="0" y1="110" x2="470" y2="110" class="grid"/>
+    <rect x="25" y="4" width="58" height="216" fill="#9aa6b2"/><text x="54" y="238" text-anchor="middle" class="label">v002</text><text x="54" y="-1" text-anchor="middle" class="value">0.001275000</text>
+    <rect x="112" y="202" width="58" height="18" fill="#2f80ed"/><text x="141" y="238" text-anchor="middle" class="label best">v210</text><text x="141" y="197" text-anchor="middle" class="value best">0.000108761</text>
+    <rect x="199" y="83" width="58" height="137" fill="#27ae60"/><text x="228" y="238" text-anchor="middle" class="label">v310</text><text x="228" y="78" text-anchor="middle" class="value">0.000810464</text>
+    <rect x="286" y="82" width="58" height="138" fill="#f2994a"/><text x="315" y="238" text-anchor="middle" class="label">v330</text><text x="315" y="77" text-anchor="middle" class="value">0.000814464</text>
+    <rect x="373" y="0" width="58" height="220" fill="#eb5757"/><text x="402" y="238" text-anchor="middle" class="label">v331</text><text x="402" y="-6" text-anchor="middle" class="value">0.001297126</text>
+  </g>
+</svg>

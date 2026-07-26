@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "version": "v3.3.0",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8,
+  "optimizer": "AdamW",
+  "epochs": 50,
+  "best_loss": 0.0031930129043757915,
+  "best_iou": 0.5642375407836719,
+  "model_path": "/root/EV-UAV/log/versions/v3.3.0-adamw-seed316/models/best_iou_seed316.pt",
+  "config": "/root/EV-UAV/log/versions/v3.3.0-adamw-seed316/configs/v330_adamw_seed316.yaml"
+}

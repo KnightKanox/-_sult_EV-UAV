@@ -1,0 +1,6 @@
+version,label,iou,seg_acc,pd,fa,optimizer,seed,max_events_num,input_channel,threshold,source
+v002,v0.0.2_leaky_relu,0.351111000000,0.710027000000,0.796304000000,0.001275000000,,,,,,/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/final_summary.json
+v210,v002_slope_0p005,0.652904051278,0.810154794981,0.862872742545,0.000108760729,,,,,,/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/final_summary.json
+v310,v3.1.0,0.546578212291,0.836396665954,0.848173036539,0.000810464447,,316,50000,8,0.9,/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v3.1.0-max50000-seed316/results/v310_validation_metrics.json
+v330,v3.3.0,0.564237540784,0.826321253015,0.838723225535,0.000814464093,AdamW,316,50000,8,0.9,/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v3.3.0-adamw-seed316/results/v330_validation_metrics.json
+v331,v3.3.1,0.429277096989,0.827832564956,0.838303233935,0.001297126489,AdamW,316,60000,8,0.9,/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v3.3.1-adamw-max60000-seed316/results/v331_validation_metrics.json

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <style>text{font-family:Arial, sans-serif;font-size:13px}.title{font-size:20px;font-weight:bold}.axis{stroke:#333;stroke-width:1}.pos{fill:#59b881}.neg{fill:#e15b64}.label{font-size:12px}</style>
+  <rect width="900" height="520" fill="white"/>
+  <text x="450" y="32" text-anchor="middle" class="title">v3.1.0 - v3.0.0 Metric Delta</text>
+  <line x1="90" y1="260" x2="840" y2="260" class="axis"/>
+  <line x1="90" y1="70" x2="90" y2="450" class="axis"/>
+  <text x="82" y="264" text-anchor="end">0</text>
+  <text x="82" y="136" text-anchor="end">+0.10</text><line x1="90" y1="132" x2="840" y2="132" stroke="#eee"/>
+  <text x="82" y="456" text-anchor="end">-0.15</text><line x1="90" y1="452" x2="840" y2="452" stroke="#eee"/>
+  <rect x="180" y="65.53" width="95" height="194.47" class="pos"/>
+  <text x="227.5" y="60" text-anchor="middle" class="label">+0.151928</text><text x="227.5" y="480" text-anchor="middle">IoU</text>
+  <rect x="350" y="219.00" width="95" height="41.00" class="pos"/>
+  <text x="397.5" y="214" text-anchor="middle" class="label">+0.032028</text><text x="397.5" y="480" text-anchor="middle">seg_acc</text>
+  <rect x="520" y="228.55" width="95" height="31.45" class="pos"/>
+  <text x="567.5" y="224" text-anchor="middle" class="label">+0.024570</text><text x="567.5" y="480" text-anchor="middle">PD</text>
+  <rect x="690" y="260" width="95" height="0.94" class="neg"/>
+  <text x="737.5" y="278" text-anchor="middle" class="label">-0.000731</text><text x="737.5" y="480" text-anchor="middle">FA</text>
+  <rect x="340" y="500" width="18" height="14" class="pos"/><text x="365" y="512">higher than v3.0.0</text><rect x="520" y="500" width="18" height="14" class="neg"/><text x="545" y="512">lower than v3.0.0</text>
+</svg>

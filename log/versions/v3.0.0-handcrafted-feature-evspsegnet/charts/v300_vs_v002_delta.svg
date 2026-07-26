@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,DejaVu Sans,sans-serif;font-size:14px}.title{font-size:22px;font-weight:bold}.small{font-size:12px}</style>
+<text x="460.0" y="32" text-anchor="middle" class="title">v3.0.0 Delta vs v0.0.2</text>
+<line x1="80" y1="280" x2="860" y2="280" stroke="black"/>
+<rect x="150" y="210.3" width="70" height="69.7" fill="#2E7D32"/>
+<text x="185.0" y="202.3" text-anchor="middle" class="small">+0.043540</text>
+<text x="185.0" y="505" text-anchor="middle">IoU</text>
+<rect x="320" y="129.1" width="70" height="150.9" fill="#2E7D32"/>
+<text x="355.0" y="121.1" text-anchor="middle" class="small">+0.094342</text>
+<text x="355.0" y="505" text-anchor="middle">Seg Acc</text>
+<rect x="490" y="236.3" width="70" height="43.7" fill="#2E7D32"/>
+<text x="525.0" y="228.3" text-anchor="middle" class="small">+0.027300</text>
+<text x="525.0" y="505" text-anchor="middle">PD</text>
+<rect x="660" y="279.6" width="70" height="0.4" fill="#2E7D32"/>
+<text x="695.0" y="271.6" text-anchor="middle" class="small">+0.000267</text>
+<text x="695.0" y="505" text-anchor="middle">FA</text>
+</svg>

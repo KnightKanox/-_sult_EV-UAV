@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "version": "v3.2.0",
+  "seed": 316,
+  "txt_dir": "/root/EV-UAV/log/versions/v3.2.0-adagrad-seed316/submission/v320_adagrad_seed316_best_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v3.2.0-adagrad-seed316/submission/v320_adagrad_seed316_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}

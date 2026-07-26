@@ -1,0 +1,6 @@
+version,label,threshold,iou,seg_acc,pd,fa,source,notes
+v2.1.0,v2.1.0 v002_slope_0p005,n/a,0.652904051277635,0.8101547949806125,0.8628727425451491,0.00010876072853037739,v2.1.0-v002-improvement-suite/results/final_summary.json best_variant,v0.0.2 improvement suite best variant
+v3.1.0,v3.1.0 max50000 seed316,0.9,0.5465782122905027,0.8363966659542638,0.8481730365392692,0.0008104644471221989,v3.1.0-max50000-seed316/results/v310_validation_metrics.json,validation threshold=0.9
+v3.3.0,v3.3.0 AdamW seed316,0.9,0.5642375407836719,0.826321253014991,0.8387232255354893,0.0008144640925462252,v3.3.0-adamw-seed316/results/v330_validation_metrics.json,validation threshold=0.9
+v3.3.1,v3.3.1 AdamW max60000 seed316,0.9,0.42927709698869576,0.8278325649558819,0.8383032339353212,0.0012971264888161618,v3.3.1-adamw-max60000-seed316/results/v331_validation_metrics.json,validation threshold=0.9
+v3.1.2,v3.1.2 max100000 best IoU threshold scan,0.8,0.42958868600617545,0.8601807468018197,0.8698026039479211,0.0025289402492081293,v3.1.2-max100000-threshold-scan/results/v312_threshold_scan_summary.json best_iou,threshold scan best IoU; lowest FA candidate threshold=0.95 FA=0.001741303408006022

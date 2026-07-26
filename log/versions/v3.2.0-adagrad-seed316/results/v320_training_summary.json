@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "version": "v3.2.0",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8,
+  "optimizer": "Adagrad",
+  "epochs": 50,
+  "best_loss": 0.132899671792984,
+  "best_iou": 0.012778814113295388,
+  "model_path": "/root/EV-UAV/log/versions/v3.2.0-adagrad-seed316/models/best_iou_seed316.pt",
+  "config": "/root/EV-UAV/log/versions/v3.2.0-adagrad-seed316/configs/v320_adagrad_seed316.yaml"
+}

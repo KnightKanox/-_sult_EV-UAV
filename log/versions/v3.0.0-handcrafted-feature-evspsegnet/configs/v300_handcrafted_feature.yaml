@@ -1,0 +1,38 @@
+STRUCTURE:
+  model_name: evissgnet
+  width: 12
+  block_residual: true
+  block_reps: 2
+  use_coords: true
+DATA:
+  input_channel: 8
+  root: /root/EV-UAV-dataset
+  whole_t: 8000
+  res:
+  - 346
+  - 260
+TRAIN:
+  epochs: 50
+  batch_size: 1
+  train_workers: 8
+  optim: Adam
+  lr: 0.001
+  k: 3
+  t: 5
+  max_events_num: 20000
+  model_save_root: /root/EV-UAV/log/versions/v3.0.0-handcrafted-feature-evspsegnet/models
+TEST:
+  vis: false
+  eval: true
+  roc: true
+  pd_detT: 50
+  correct_thresh: 0.0001
+  save: true
+  model_path: /root/EV-UAV/log/versions/v3.0.0-handcrafted-feature-evspsegnet/models/best_iou_seed37.pt
+V3_FEATURES:
+  feature_k: 32
+  feature_radius: 0.035
+  density_sigma: 0.018
+  linearity_d0: 12.0
+  temporal_tau: 0.02
+  negative_slope: 0.01

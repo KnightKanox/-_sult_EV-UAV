@@ -1,0 +1,22 @@
+{
+  "sample": "/root/EV-UAV-dataset/train/train_000.npz",
+  "rows": 39169,
+  "feature_shape": [
+    39169,
+    4
+  ],
+  "finite": true,
+  "min": [
+    0.0,
+    0.0,
+    0.0,
+    0.3570840060710907
+  ],
+  "max": [
+    1.0,
+    0.900613009929657,
+    1.0,
+    1.0
+  ],
+  "seconds": 1.519
+}

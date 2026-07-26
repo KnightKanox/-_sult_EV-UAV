@@ -1,0 +1,6 @@
+predict-val:   0%|          | 0/24 [00:00<?, ?sample/s]predict-val:   4%|▍         | 1/24 [00:00<00:02,  9.48sample/s]predict-val:  12%|█▎        | 3/24 [00:00<00:01, 10.70sample/s]predict-val:  21%|██        | 5/24 [00:00<00:01, 12.51sample/s]predict-val:  29%|██▉       | 7/24 [00:00<00:01, 14.85sample/s]predict-val:  38%|███▊      | 9/24 [00:00<00:01, 14.77sample/s]predict-val:  46%|████▌     | 11/24 [00:00<00:00, 14.18sample/s]predict-val:  54%|█████▍    | 13/24 [00:00<00:00, 13.26sample/s]predict-val:  62%|██████▎   | 15/24 [00:01<00:00, 14.17sample/s]predict-val:  71%|███████   | 17/24 [00:01<00:00,  9.30sample/s]predict-val:  83%|████████▎ | 20/24 [00:01<00:00, 11.64sample/s]predict-val:  92%|█████████▏| 22/24 [00:01<00:00, 12.91sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00,  7.65sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00, 10.54sample/s]
+{
+  "txt_count": 24,
+  "zip": "/root/EV-UAV/log/versions/v3.2.0-adagrad-seed316/submission/v320_adagrad_seed316_best_submission.zip"
+}
+free(): invalid pointer

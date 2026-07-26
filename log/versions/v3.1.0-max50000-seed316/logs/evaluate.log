@@ -1,0 +1,19 @@
+predict-val:   0%|          | 0/24 [00:00<?, ?sample/s]predict-val:   8%|▊         | 2/24 [00:00<00:02, 10.76sample/s]predict-val:  17%|█▋        | 4/24 [00:00<00:01, 11.24sample/s]predict-val:  25%|██▌       | 6/24 [00:00<00:01, 13.83sample/s]predict-val:  38%|███▊      | 9/24 [00:00<00:01, 14.72sample/s]predict-val:  46%|████▌     | 11/24 [00:00<00:00, 14.41sample/s]predict-val:  54%|█████▍    | 13/24 [00:00<00:00, 14.66sample/s]predict-val:  62%|██████▎   | 15/24 [00:01<00:00, 15.23sample/s]predict-val:  71%|███████   | 17/24 [00:01<00:00,  9.75sample/s]predict-val:  79%|███████▉  | 19/24 [00:01<00:00, 11.55sample/s]predict-val:  88%|████████▊ | 21/24 [00:01<00:00, 12.75sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00,  8.04sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00, 10.77sample/s]
+{
+  "threshold": 0.9,
+  "iou": 0.5465782122905027,
+  "seg_acc": 0.8363966659542638,
+  "pd": 0.8481730365392692,
+  "fa": 0.0008104644471221989,
+  "tp": 54789,
+  "fp": 34734,
+  "fn": 10717,
+  "gt_positive": 65506,
+  "pred_positive": 89523,
+  "total_events": 1424330,
+  "version": "v3.1.0",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8
+}
+free(): invalid pointer

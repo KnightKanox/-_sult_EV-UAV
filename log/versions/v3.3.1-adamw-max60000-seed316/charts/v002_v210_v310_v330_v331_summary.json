@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-07-26T00:00:00+08:00",
+  "metric_directions": {
+    "iou": "higher_is_better",
+    "seg_acc": "higher_is_better",
+    "pd": "higher_is_better",
+    "fa": "lower_is_better"
+  },
+  "versions": [
+    {
+      "version": "v002",
+      "label": "v0.0.2_leaky_relu",
+      "metrics": {
+        "iou": 0.351111,
+        "seg_acc": 0.710027,
+        "pd": 0.796304,
+        "fa": 0.001275
+      },
+      "source": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/final_summary.json"
+    },
+    {
+      "version": "v210",
+      "label": "v002_slope_0p005",
+      "metrics": {
+        "iou": 0.652904051277635,
+        "seg_acc": 0.8101547949806125,
+        "pd": 0.8628727425451491,
+        "fa": 0.00010876072853037739
+      },
+      "source": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/final_summary.json"
+    },
+    {
+      "version": "v310",
+      "label": "v3.1.0",
+      "metrics": {
+        "iou": 0.5465782122905027,
+        "seg_acc": 0.8363966659542638,
+        "pd": 0.8481730365392692,
+        "fa": 0.0008104644471221989
+      },
+      "metadata": {
+        "threshold": 0.9,
+        "seed": 316,
+        "max_events_num": 50000,
+        "input_channel": 8
+      },
+      "source": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v3.1.0-max50000-seed316/results/v310_validation_metrics.json"
+    },
+    {
+      "version": "v330",
+      "label": "v3.3.0",
+      "metrics": {
+        "iou": 0.5642375407836719,
+        "seg_acc": 0.826321253014991,
+        "pd": 0.8387232255354893,
+        "fa": 0.0008144640925462252
+      },
+      "metadata": {
+        "threshold": 0.9,
+        "seed": 316,
+        "max_events_num": 50000,
+        "input_channel": 8,
+        "optimizer": "AdamW"
+      },
+      "source": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v3.3.0-adamw-seed316/results/v330_validation_metrics.json"
+    },
+    {
+      "version": "v331",
+      "label": "v3.3.1",
+      "metrics": {
+        "iou": 0.42927709698869576,
+        "seg_acc": 0.8278325649558819,
+        "pd": 0.8383032339353212,
+        "fa": 0.0012971264888161618
+      },
+      "metadata": {
+        "threshold": 0.9,
+        "seed": 316,
+        "max_events_num": 60000,
+        "input_channel": 8,
+        "optimizer": "AdamW"
+      },
+      "source": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v3.3.1-adamw-max60000-seed316/results/v331_validation_metrics.json"
+    }
+  ],
+  "best_by_metric": {
+    "iou": {
+      "version": "v210",
+      "value": 0.652904051277635
+    },
+    "seg_acc": {
+      "version": "v310",
+      "value": 0.8363966659542638
+    },
+    "pd": {
+      "version": "v210",
+      "value": 0.8628727425451491
+    },
+    "fa": {
+      "version": "v210",
+      "value": 0.00010876072853037739
+    }
+  },
+  "v331_comparison": {
+    "vs_v330": {
+      "iou_delta": -0.13496044379497615,
+      "seg_acc_delta": 0.0015113119408908866,
+      "pd_delta": -0.0004199916001681293,
+      "fa_delta": 0.00048266239626993664,
+      "interpretation": "v331 相比 v330 仅 seg_acc 略升；IoU、PD 下降，FA 升高（更差）。"
+    },
+    "vs_v310": {
+      "iou_delta": -0.11730111530180692,
+      "seg_acc_delta": -0.008564100998381886,
+      "pd_delta": -0.009869802603947957,
+      "fa_delta": 0.0004866620416939629,
+      "interpretation": "v331 相比 v310 四项综合更弱：IoU、seg_acc、PD 均下降，FA 升高（更差）。"
+    },
+    "vs_v210": {
+      "iou_delta": -0.2236269542889392,
+      "seg_acc_delta": 0.017677769975269394,
+      "pd_delta": -0.024569508609827896,
+      "fa_delta": 0.0011883657602857845,
+      "interpretation": "v331 相比 v210 seg_acc 更高，但 IoU、PD 明显下降，FA 明显升高（更差）。"
+    }
+  }
+}

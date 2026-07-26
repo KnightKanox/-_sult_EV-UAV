@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "version": "v3.1.2",
+  "seed": 316,
+  "max_events_num": 100000,
+  "input_channel": 8,
+  "epochs": 50,
+  "best_loss": 0.0030994608532637358,
+  "best_iou": 0.42504317380710177,
+  "model_path": "/root/EV-UAV/log/versions/v3.1.2-max100000-threshold-scan/models/best_iou_seed316.pt",
+  "config": "/root/EV-UAV/log/versions/v3.1.2-max100000-threshold-scan/configs/v312_max100000_seed316.yaml"
+}

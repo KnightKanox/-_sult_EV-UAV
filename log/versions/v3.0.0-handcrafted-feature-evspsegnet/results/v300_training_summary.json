@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "epochs": 50,
+  "best_loss": 0.004357890225946903,
+  "best_iou": 0.39465070817073994,
+  "model_path": "/root/EV-UAV/log/versions/v3.0.0-handcrafted-feature-evspsegnet/models/best_iou_seed37.pt",
+  "config": "/root/EV-UAV/log/versions/v3.0.0-handcrafted-feature-evspsegnet/configs/v300_handcrafted_feature.yaml"
+}

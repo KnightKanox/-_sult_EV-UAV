@@ -1,0 +1,6 @@
+predict-val:   0%|          | 0/24 [00:00<?, ?sample/s]predict-val:   4%|▍         | 1/24 [00:00<00:02,  9.76sample/s]predict-val:  12%|█▎        | 3/24 [00:00<00:01, 11.03sample/s]predict-val:  21%|██        | 5/24 [00:00<00:01, 12.76sample/s]predict-val:  29%|██▉       | 7/24 [00:00<00:01, 15.00sample/s]predict-val:  38%|███▊      | 9/24 [00:00<00:01, 14.81sample/s]predict-val:  46%|████▌     | 11/24 [00:00<00:00, 14.42sample/s]predict-val:  54%|█████▍    | 13/24 [00:00<00:00, 14.79sample/s]predict-val:  62%|██████▎   | 15/24 [00:01<00:00, 15.40sample/s]predict-val:  71%|███████   | 17/24 [00:01<00:00,  9.72sample/s]predict-val:  83%|████████▎ | 20/24 [00:01<00:00, 12.16sample/s]predict-val:  92%|█████████▏| 22/24 [00:01<00:00, 13.41sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00,  7.72sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00, 10.85sample/s]
+{
+  "txt_count": 24,
+  "zip": "/root/EV-UAV/log/versions/v3.0.0-handcrafted-feature-evspsegnet/submission/v300_handcrafted_feature_best_submission.zip"
+}
+free(): invalid pointer

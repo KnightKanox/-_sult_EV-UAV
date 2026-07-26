@@ -1,0 +1,17 @@
+{
+  "threshold": 0.9,
+  "iou": 0.5465782122905027,
+  "seg_acc": 0.8363966659542638,
+  "pd": 0.8481730365392692,
+  "fa": 0.0008104644471221989,
+  "tp": 54789,
+  "fp": 34734,
+  "fn": 10717,
+  "gt_positive": 65506,
+  "pred_positive": 89523,
+  "total_events": 1424330,
+  "version": "v3.1.0",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8
+}

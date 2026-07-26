@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-07-26",
+  "versions": [
+    {
+      "version": "v0.0.2",
+      "label": "002 baseline LeakyReLU",
+      "metrics": {
+        "iou": 0.351111,
+        "seg_acc": 0.710027,
+        "pd": 0.796304,
+        "fa": 0.001275
+      },
+      "source": "EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/final_summary.json:baseline_v002"
+    },
+    {
+      "version": "v2.1.0",
+      "label": "210 best variant v002_slope_0p005",
+      "metrics": {
+        "iou": 0.652904051277635,
+        "seg_acc": 0.8101547949806125,
+        "pd": 0.8628727425451491,
+        "fa": 0.00010876072853037739
+      },
+      "source": "EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/final_summary.json:best_variant"
+    },
+    {
+      "version": "v3.1.0",
+      "label": "310 max50000 seed316",
+      "metrics": {
+        "iou": 0.5465782122905027,
+        "seg_acc": 0.8363966659542638,
+        "pd": 0.8481730365392692,
+        "fa": 0.0008104644471221989
+      },
+      "source": "EV-UAV/log/versions/v3.1.0-max50000-seed316/results/v310_validation_metrics.json"
+    },
+    {
+      "version": "v3.2.0",
+      "label": "320 Adagrad seed316",
+      "metrics": {
+        "iou": 0.012778814113295388,
+        "seg_acc": 0.02447104082068818,
+        "pd": 0.1127677446451071,
+        "fa": 0.0011568189273413155
+      },
+      "source": "EV-UAV/log/versions/v3.2.0-adagrad-seed316/results/v320_validation_metrics.json"
+    }
+  ],
+  "best": {
+    "iou": {
+      "version": "v2.1.0",
+      "value": 0.652904051277635,
+      "rule": "higher_is_better"
+    },
+    "seg_acc": {
+      "version": "v3.1.0",
+      "value": 0.8363966659542638,
+      "rule": "higher_is_better"
+    },
+    "pd": {
+      "version": "v2.1.0",
+      "value": 0.8628727425451491,
+      "rule": "higher_is_better"
+    },
+    "fa": {
+      "version": "v2.1.0",
+      "value": 0.00010876072853037739,
+      "rule": "lower_is_better"
+    }
+  },
+  "v320_comparison": {
+    "against_v3.1.0": {
+      "iou_delta": -0.5337993981772074,
+      "seg_acc_delta": -0.8119256251335756,
+      "pd_delta": -0.7354052918941621,
+      "fa_delta": 0.0003463544802191166,
+      "summary": "v3.2.0 相比 v3.1.0 在 IoU、seg_acc、PD 全部下降，FA 升高（更差）。"
+    },
+    "against_v2.1.0": {
+      "iou_delta": -0.6401252371643395,
+      "seg_acc_delta": -0.7856837541599243,
+      "pd_delta": -0.750104997900042,
+      "fa_delta": 0.001048058198810938,
+      "summary": "v3.2.0 相比 v2.1.0 在 IoU、seg_acc、PD 全部显著下降，FA 明显升高（更差）。"
+    }
+  },
+  "conclusion": "v2.1.0 综合最优，IoU、PD 和最低 FA 均领先；v3.1.0 的 seg_acc 最高但 IoU/FA 不及 v2.1.0；v3.2.0 Adagrad seed316 相比 310/210 均明显退化，不适合作为当前最佳提交。",
+  "note": "FA 越低越好；IoU、seg_acc、PD 越高越好。"
+}

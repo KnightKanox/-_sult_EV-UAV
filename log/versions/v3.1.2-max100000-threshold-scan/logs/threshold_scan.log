@@ -1,0 +1,63 @@
+predict-val:   0%|          | 0/24 [00:00<?, ?sample/s]predict-val:   4%|▍         | 1/24 [00:00<00:02,  9.56sample/s]predict-val:  12%|█▎        | 3/24 [00:00<00:01, 10.54sample/s]predict-val:  21%|██        | 5/24 [00:00<00:01, 11.99sample/s]predict-val:  29%|██▉       | 7/24 [00:00<00:01, 14.28sample/s]predict-val:  38%|███▊      | 9/24 [00:00<00:01, 14.35sample/s]predict-val:  46%|████▌     | 11/24 [00:00<00:00, 14.15sample/s]predict-val:  54%|█████▍    | 13/24 [00:00<00:00, 14.58sample/s]predict-val:  62%|██████▎   | 15/24 [00:01<00:00, 15.26sample/s]predict-val:  71%|███████   | 17/24 [00:01<00:00,  9.62sample/s]predict-val:  83%|████████▎ | 20/24 [00:01<00:00, 12.08sample/s]predict-val:  92%|█████████▏| 22/24 [00:01<00:00, 13.35sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00,  7.57sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00, 10.63sample/s]
+{
+  "status": "ok",
+  "version": "v3.1.2",
+  "seed": 316,
+  "max_events_num": 100000,
+  "input_channel": 8,
+  "weight": "/root/EV-UAV/log/versions/v3.1.2-max100000-threshold-scan/models/best_iou_seed316.pt",
+  "threshold_count": 6,
+  "csv": "/root/EV-UAV/log/versions/v3.1.2-max100000-threshold-scan/results/v312_threshold_scan.csv",
+  "best_iou": {
+    "threshold": 0.8,
+    "iou": 0.42958868600617545,
+    "seg_acc": 0.8601807468018197,
+    "pd": 0.8698026039479211,
+    "fa": 0.0025289402492081293,
+    "tp": 56347,
+    "fp": 65659,
+    "fn": 9159,
+    "gt_positive": 65506,
+    "pred_positive": 122006,
+    "total_events": 1424330,
+    "version": "v3.1.2",
+    "seed": 316,
+    "max_events_num": 100000,
+    "input_channel": 8
+  },
+  "lowest_fa": {
+    "threshold": 0.95,
+    "iou": 0.4025565563299429,
+    "seg_acc": 0.7600677800506824,
+    "pd": 0.7927341453170936,
+    "fa": 0.001741303408006022,
+    "tp": 49789,
+    "fp": 58176,
+    "fn": 15717,
+    "gt_positive": 65506,
+    "pred_positive": 107965,
+    "total_events": 1424330,
+    "version": "v3.1.2",
+    "seed": 316,
+    "max_events_num": 100000,
+    "input_channel": 8
+  },
+  "pd_fa_tradeoff": {
+    "threshold": 0.7,
+    "iou": 0.4258293468637706,
+    "seg_acc": 0.8737672884926572,
+    "pd": 0.8855522889542209,
+    "fa": 0.0029578207466763244,
+    "tp": 57237,
+    "fp": 68907,
+    "fn": 8269,
+    "gt_positive": 65506,
+    "pred_positive": 126144,
+    "total_events": 1424330,
+    "version": "v3.1.2",
+    "seed": 316,
+    "max_events_num": 100000,
+    "input_channel": 8
+  }
+}
+free(): invalid pointer

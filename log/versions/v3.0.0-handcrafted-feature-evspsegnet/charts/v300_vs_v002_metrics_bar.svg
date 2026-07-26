@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,DejaVu Sans,sans-serif;font-size:14px}.title{font-size:22px;font-weight:bold}.small{font-size:12px}</style>
+<text x="460.0" y="32" text-anchor="middle" class="title">v3.0.0 vs v0.0.2 Validation Metrics</text>
+<line x1="80" y1="470.0" x2="860" y2="470.0" stroke="#ddd"/>
+<text x="70" y="474.0" text-anchor="end" class="small">0.00</text>
+<line x1="80" y1="388.0" x2="860" y2="388.0" stroke="#ddd"/>
+<text x="70" y="392.0" text-anchor="end" class="small">0.18</text>
+<line x1="80" y1="306.0" x2="860" y2="306.0" stroke="#ddd"/>
+<text x="70" y="310.0" text-anchor="end" class="small">0.36</text>
+<line x1="80" y1="224.0" x2="860" y2="224.0" stroke="#ddd"/>
+<text x="70" y="228.0" text-anchor="end" class="small">0.54</text>
+<line x1="80" y1="142.0" x2="860" y2="142.0" stroke="#ddd"/>
+<text x="70" y="146.0" text-anchor="end" class="small">0.72</text>
+<line x1="80" y1="60.0" x2="860" y2="60.0" stroke="#ddd"/>
+<text x="70" y="64.0" text-anchor="end" class="small">0.90</text>
+<rect x="130" y="310.0" width="42" height="160.0" fill="#5B8DB8"/>
+<text x="151.0" y="304.0" text-anchor="middle" class="small">0.351111</text>
+<rect x="180" y="290.2" width="42" height="179.8" fill="#E08D3C"/>
+<text x="201.0" y="284.2" text-anchor="middle" class="small">0.394651</text>
+<text x="176" y="505" text-anchor="middle">IoU</text>
+<rect x="300" y="146.5" width="42" height="323.5" fill="#5B8DB8"/>
+<text x="321.0" y="140.5" text-anchor="middle" class="small">0.710027</text>
+<rect x="350" y="103.6" width="42" height="366.4" fill="#E08D3C"/>
+<text x="371.0" y="97.6" text-anchor="middle" class="small">0.804369</text>
+<text x="346" y="505" text-anchor="middle">Seg Acc</text>
+<rect x="470" y="107.2" width="42" height="362.8" fill="#5B8DB8"/>
+<text x="491.0" y="101.2" text-anchor="middle" class="small">0.796304</text>
+<rect x="520" y="94.8" width="42" height="375.2" fill="#E08D3C"/>
+<text x="541.0" y="88.8" text-anchor="middle" class="small">0.823604</text>
+<text x="516" y="505" text-anchor="middle">PD</text>
+<rect x="640" y="469.4" width="42" height="0.6" fill="#5B8DB8"/>
+<text x="661.0" y="463.4" text-anchor="middle" class="small">0.001275</text>
+<rect x="690" y="469.3" width="42" height="0.7" fill="#E08D3C"/>
+<text x="711.0" y="463.3" text-anchor="middle" class="small">0.001542</text>
+<text x="686" y="505" text-anchor="middle">FA</text>
+<rect x="625" y="75" width="18" height="18" fill="#5B8DB8"/><text x="650" y="89">v0.0.2 LeakyReLU</text>
+<rect x="625" y="102" width="18" height="18" fill="#E08D3C"/><text x="650" y="116">v3.0.0 d/L*/C/T</text>
+</svg>

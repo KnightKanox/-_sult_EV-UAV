@@ -1,0 +1,20 @@
+predict-val:   0%|          | 0/24 [00:00<?, ?sample/s]predict-val:   4%|▍         | 1/24 [00:00<00:02,  9.91sample/s]predict-val:  12%|█▎        | 3/24 [00:00<00:01, 11.15sample/s]predict-val:  21%|██        | 5/24 [00:00<00:01, 12.40sample/s]predict-val:  29%|██▉       | 7/24 [00:00<00:01, 14.70sample/s]predict-val:  38%|███▊      | 9/24 [00:00<00:01, 14.55sample/s]predict-val:  46%|████▌     | 11/24 [00:00<00:00, 14.28sample/s]predict-val:  54%|█████▍    | 13/24 [00:00<00:00, 14.65sample/s]predict-val:  62%|██████▎   | 15/24 [00:01<00:00, 15.35sample/s]predict-val:  71%|███████   | 17/24 [00:01<00:00,  9.45sample/s]predict-val:  83%|████████▎ | 20/24 [00:01<00:00, 11.89sample/s]predict-val:  92%|█████████▏| 22/24 [00:01<00:00, 13.16sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00,  7.71sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00, 10.74sample/s]
+{
+  "threshold": 0.9,
+  "iou": 0.012778814113295388,
+  "seg_acc": 0.02447104082068818,
+  "pd": 0.1127677446451071,
+  "fa": 0.0011568189273413155,
+  "tp": 1603,
+  "fp": 59936,
+  "fn": 63903,
+  "gt_positive": 65506,
+  "pred_positive": 61539,
+  "total_events": 1424330,
+  "version": "v3.2.0",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8,
+  "optimizer": "Adagrad"
+}
+free(): invalid pointer

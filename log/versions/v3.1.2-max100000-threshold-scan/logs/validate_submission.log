@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "version": "v3.1.2",
+  "seed": 316,
+  "txt_dir": "/root/EV-UAV/log/versions/v3.1.2-max100000-threshold-scan/submission/v312_max100000_seed316_best_t0p80_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v3.1.2-max100000-threshold-scan/submission/v312_max100000_seed316_best_t0p80_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}

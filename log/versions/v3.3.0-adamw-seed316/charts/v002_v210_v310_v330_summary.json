@@ -1,0 +1,81 @@
+{
+  "comparison": "v002_v210_v310_v330",
+  "generated_at": "2026-07-26",
+  "metrics": [
+    {
+      "version": "v0.0.2",
+      "label": "002 baseline_v002",
+      "source": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/final_summary.json::baseline_v002",
+      "iou": 0.351111,
+      "seg_acc": 0.710027,
+      "pd": 0.796304,
+      "fa": 0.001275
+    },
+    {
+      "version": "v2.1.0",
+      "label": "210 best_variant v002_slope_0p005",
+      "source": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/final_summary.json::best_variant",
+      "iou": 0.652904051277635,
+      "seg_acc": 0.8101547949806125,
+      "pd": 0.8628727425451491,
+      "fa": 0.00010876072853037739
+    },
+    {
+      "version": "v3.1.0",
+      "label": "310 max50000 seed316",
+      "source": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v3.1.0-max50000-seed316/results/v310_validation_metrics.json",
+      "iou": 0.5465782122905027,
+      "seg_acc": 0.8363966659542638,
+      "pd": 0.8481730365392692,
+      "fa": 0.0008104644471221989
+    },
+    {
+      "version": "v3.3.0",
+      "label": "330 AdamW seed316",
+      "source": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v3.3.0-adamw-seed316/results/v330_validation_metrics.json",
+      "iou": 0.5642375407836719,
+      "seg_acc": 0.826321253014991,
+      "pd": 0.8387232255354893,
+      "fa": 0.0008144640925462252
+    }
+  ],
+  "delta_330_vs_310": {
+    "iou": 0.01765932849316918,
+    "seg_acc": -0.010075412939272812,
+    "pd": -0.009449811003779894,
+    "fa": 0.000003999645424026322
+  },
+  "delta_330_vs_210": {
+    "iou": -0.08866651049396307,
+    "seg_acc": 0.01616645803437848,
+    "pd": -0.024149517009659794,
+    "fa": 0.0007057033640158478
+  },
+  "best_by_metric": {
+    "iou": {
+      "version": "v2.1.0",
+      "label": "210 best_variant v002_slope_0p005",
+      "value": 0.652904051277635,
+      "direction": "higher_is_better"
+    },
+    "seg_acc": {
+      "version": "v3.1.0",
+      "label": "310 max50000 seed316",
+      "value": 0.8363966659542638,
+      "direction": "higher_is_better"
+    },
+    "pd": {
+      "version": "v2.1.0",
+      "label": "210 best_variant v002_slope_0p005",
+      "value": 0.8628727425451491,
+      "direction": "higher_is_better"
+    },
+    "fa": {
+      "version": "v2.1.0",
+      "label": "210 best_variant v002_slope_0p005",
+      "value": 0.00010876072853037739,
+      "direction": "lower_is_better"
+    }
+  },
+  "conclusion": "v3.3.0 AdamW 相比 v3.1.0 的 IoU 略升，但 seg_acc/PD 略降、FA 略高；相比 v2.1.0，v3.3.0 仅 seg_acc 更高，IoU、PD 和 FA 仍落后，因此综合最佳仍为 v2.1.0。"
+}

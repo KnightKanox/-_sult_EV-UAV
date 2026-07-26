@@ -1,0 +1,107 @@
+{
+  "title": "v2.1.0/v3.1.0/v3.3.0/v3.3.1/v3.1.2 validation metrics comparison",
+  "generated_for": "spec run-v312-max100000-threshold-scan Task 5",
+  "metrics": [
+    {
+      "version": "v2.1.0",
+      "label": "v2.1.0 v002_slope_0p005",
+      "threshold": "n/a",
+      "iou": 0.652904051277635,
+      "seg_acc": 0.8101547949806125,
+      "pd": 0.8628727425451491,
+      "fa": 0.00010876072853037739,
+      "source": "v2.1.0-v002-improvement-suite/results/final_summary.json best_variant",
+      "notes": "v0.0.2 improvement suite best variant"
+    },
+    {
+      "version": "v3.1.0",
+      "label": "v3.1.0 max50000 seed316",
+      "threshold": 0.9,
+      "iou": 0.5465782122905027,
+      "seg_acc": 0.8363966659542638,
+      "pd": 0.8481730365392692,
+      "fa": 0.0008104644471221989,
+      "source": "v3.1.0-max50000-seed316/results/v310_validation_metrics.json",
+      "notes": "validation threshold=0.9"
+    },
+    {
+      "version": "v3.3.0",
+      "label": "v3.3.0 AdamW seed316",
+      "threshold": 0.9,
+      "iou": 0.5642375407836719,
+      "seg_acc": 0.826321253014991,
+      "pd": 0.8387232255354893,
+      "fa": 0.0008144640925462252,
+      "source": "v3.3.0-adamw-seed316/results/v330_validation_metrics.json",
+      "notes": "validation threshold=0.9"
+    },
+    {
+      "version": "v3.3.1",
+      "label": "v3.3.1 AdamW max60000 seed316",
+      "threshold": 0.9,
+      "iou": 0.42927709698869576,
+      "seg_acc": 0.8278325649558819,
+      "pd": 0.8383032339353212,
+      "fa": 0.0012971264888161618,
+      "source": "v3.3.1-adamw-max60000-seed316/results/v331_validation_metrics.json",
+      "notes": "validation threshold=0.9"
+    },
+    {
+      "version": "v3.1.2",
+      "label": "v3.1.2 max100000 best IoU threshold scan",
+      "threshold": 0.8,
+      "iou": 0.42958868600617545,
+      "seg_acc": 0.8601807468018197,
+      "pd": 0.8698026039479211,
+      "fa": 0.0025289402492081293,
+      "source": "v3.1.2-max100000-threshold-scan/results/v312_threshold_scan_summary.json best_iou",
+      "notes": "threshold scan best IoU; lowest FA candidate threshold=0.95 FA=0.001741303408006022"
+    }
+  ],
+  "best_by_metric": {
+    "iou": {
+      "version": "v2.1.0",
+      "value": 0.652904051277635,
+      "direction": "higher_is_better"
+    },
+    "seg_acc": {
+      "version": "v3.1.2",
+      "value": 0.8601807468018197,
+      "direction": "higher_is_better"
+    },
+    "pd": {
+      "version": "v3.1.2",
+      "value": 0.8698026039479211,
+      "direction": "higher_is_better"
+    },
+    "fa": {
+      "version": "v2.1.0",
+      "value": 0.00010876072853037739,
+      "direction": "lower_is_better"
+    }
+  },
+  "v3.1.2_threshold_scan_selection": {
+    "best_iou_threshold": 0.8,
+    "iou": 0.42958868600617545,
+    "seg_acc": 0.8601807468018197,
+    "pd": 0.8698026039479211,
+    "fa": 0.0025289402492081293,
+    "lowest_fa_candidate": {
+      "threshold": 0.95,
+      "fa": 0.001741303408006022
+    }
+  },
+  "delta_v3.1.2_vs_v2.1.0": {
+    "iou": -0.2233153652714595,
+    "seg_acc": 0.05002595182120717,
+    "pd": 0.006929861402771964,
+    "fa": 0.002420179520677752
+  },
+  "delta_v3.1.2_vs_v3.1.0": {
+    "iou": -0.1169895262843273,
+    "seg_acc": 0.0237840808475559,
+    "pd": 0.02162956740865185,
+    "fa": 0.0017184758020859303
+  },
+  "conclusion": "v3.1.2 at threshold=0.8 achieves the best seg_acc and PD among the compared versions, but IoU remains close to v3.3.1 and far below v2.1.0/v3.1.0/v3.3.0; FA is the worst among the compared versions. The overall best remains v2.1.0 because it has the highest IoU and lowest FA, while v3.1.2 is mainly a high-recall/high-seg_acc candidate."
+}

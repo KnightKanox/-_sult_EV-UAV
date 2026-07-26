@@ -1,0 +1,5 @@
+version,label,iou,seg_acc,pd,fa,source
+v0.0.2,002 baseline LeakyReLU,0.351111,0.710027,0.796304,0.001275,EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/final_summary.json:baseline_v002
+v2.1.0,210 best variant v002_slope_0p005,0.652904051277635,0.8101547949806125,0.8628727425451491,0.00010876072853037739,EV-UAV/log/versions/v2.1.0-v002-improvement-suite/results/final_summary.json:best_variant
+v3.1.0,310 max50000 seed316,0.5465782122905027,0.8363966659542638,0.8481730365392692,0.0008104644471221989,EV-UAV/log/versions/v3.1.0-max50000-seed316/results/v310_validation_metrics.json
+v3.2.0,320 Adagrad seed316,0.012778814113295388,0.02447104082068818,0.1127677446451071,0.0011568189273413155,EV-UAV/log/versions/v3.2.0-adagrad-seed316/results/v320_validation_metrics.json

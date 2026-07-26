@@ -1,0 +1,7 @@
+{
+  "status": "ok",
+  "txt_dir": "/root/EV-UAV/log/versions/v3.0.0-handcrafted-feature-evspsegnet/submission/v300_handcrafted_feature_best_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v3.0.0-handcrafted-feature-evspsegnet/submission/v300_handcrafted_feature_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}

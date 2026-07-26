@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="620" viewBox="0 0 1060 620">
+<style>text{font-family:Arial, sans-serif;font-size:13px}.title{font-size:21px;font-weight:bold}.axis{stroke:#333;stroke-width:1}.grid{stroke:#eee}.label{font-size:12px}.note{font-size:12px;fill:#555}</style>
+<rect width="1060" height="620" fill="white"/>
+<text x="530" y="35" text-anchor="middle" class="title">v0.0.2 vs v2.1.0 vs v3.1.0 Validation Metrics</text>
+<line x1="85" y1="480" x2="305" y2="480" class="axis"/>
+<line x1="85" y1="70" x2="85" y2="480" class="axis"/>
+<text x="77" y="484.0" text-anchor="end">0.00</text><line x1="85" y1="480.0" x2="305" y2="480.0" class="grid"/>
+<text x="77" y="381.5" text-anchor="end">0.25</text><line x1="85" y1="377.5" x2="305" y2="377.5" class="grid"/>
+<text x="77" y="279.0" text-anchor="end">0.50</text><line x1="85" y1="275.0" x2="305" y2="275.0" class="grid"/>
+<text x="77" y="176.5" text-anchor="end">0.75</text><line x1="85" y1="172.5" x2="305" y2="172.5" class="grid"/>
+<text x="77" y="74.0" text-anchor="end">1.00</text><line x1="85" y1="70.0" x2="305" y2="70.0" class="grid"/>
+<rect x="127" y="336.04" width="36" height="143.96" fill="#8fb3ff"/>
+<text x="145.0" y="330.0" text-anchor="middle" class="label">0.351</text>
+<rect x="179" y="212.31" width="36" height="267.69" fill="#7acb8a"/>
+<text x="197.0" y="206.3" text-anchor="middle" class="label">0.653</text>
+<rect x="231" y="255.90" width="36" height="224.10" fill="#ff9f7a"/>
+<text x="249.0" y="249.9" text-anchor="middle" class="label">0.547</text>
+<text x="195.0" y="514" text-anchor="middle">IoU</text>
+<line x1="325" y1="480" x2="545" y2="480" class="axis"/>
+<line x1="325" y1="70" x2="325" y2="480" class="axis"/>
+<text x="317" y="484.0" text-anchor="end">0.00</text><line x1="325" y1="480.0" x2="545" y2="480.0" class="grid"/>
+<text x="317" y="381.5" text-anchor="end">0.25</text><line x1="325" y1="377.5" x2="545" y2="377.5" class="grid"/>
+<text x="317" y="279.0" text-anchor="end">0.50</text><line x1="325" y1="275.0" x2="545" y2="275.0" class="grid"/>
+<text x="317" y="176.5" text-anchor="end">0.75</text><line x1="325" y1="172.5" x2="545" y2="172.5" class="grid"/>
+<text x="317" y="74.0" text-anchor="end">1.00</text><line x1="325" y1="70.0" x2="545" y2="70.0" class="grid"/>
+<rect x="367" y="188.89" width="36" height="291.11" fill="#8fb3ff"/>
+<text x="385.0" y="182.9" text-anchor="middle" class="label">0.710</text>
+<rect x="419" y="147.84" width="36" height="332.16" fill="#7acb8a"/>
+<text x="437.0" y="141.8" text-anchor="middle" class="label">0.810</text>
+<rect x="471" y="137.08" width="36" height="342.92" fill="#ff9f7a"/>
+<text x="489.0" y="131.1" text-anchor="middle" class="label">0.836</text>
+<text x="435.0" y="514" text-anchor="middle">seg_acc</text>
+<line x1="565" y1="480" x2="785" y2="480" class="axis"/>
+<line x1="565" y1="70" x2="565" y2="480" class="axis"/>
+<text x="557" y="484.0" text-anchor="end">0.00</text><line x1="565" y1="480.0" x2="785" y2="480.0" class="grid"/>
+<text x="557" y="381.5" text-anchor="end">0.25</text><line x1="565" y1="377.5" x2="785" y2="377.5" class="grid"/>
+<text x="557" y="279.0" text-anchor="end">0.50</text><line x1="565" y1="275.0" x2="785" y2="275.0" class="grid"/>
+<text x="557" y="176.5" text-anchor="end">0.75</text><line x1="565" y1="172.5" x2="785" y2="172.5" class="grid"/>
+<text x="557" y="74.0" text-anchor="end">1.00</text><line x1="565" y1="70.0" x2="785" y2="70.0" class="grid"/>
+<rect x="607" y="153.52" width="36" height="326.48" fill="#8fb3ff"/>
+<text x="625.0" y="147.5" text-anchor="middle" class="label">0.796</text>
+<rect x="659" y="126.22" width="36" height="353.78" fill="#7acb8a"/>
+<text x="677.0" y="120.2" text-anchor="middle" class="label">0.863</text>
+<rect x="711" y="132.25" width="36" height="347.75" fill="#ff9f7a"/>
+<text x="729.0" y="126.2" text-anchor="middle" class="label">0.848</text>
+<text x="675.0" y="514" text-anchor="middle">PD</text>
+<line x1="805" y1="480" x2="1025" y2="480" class="axis"/>
+<line x1="805" y1="70" x2="805" y2="480" class="axis"/>
+<text x="797" y="484.0" text-anchor="end">0.0</text><line x1="805" y1="480.0" x2="1025" y2="480.0" class="grid"/>
+<text x="797" y="381.5" text-anchor="end">0.5</text><line x1="805" y1="377.5" x2="1025" y2="377.5" class="grid"/>
+<text x="797" y="279.0" text-anchor="end">1.0</text><line x1="805" y1="275.0" x2="1025" y2="275.0" class="grid"/>
+<text x="797" y="176.5" text-anchor="end">1.5</text><line x1="805" y1="172.5" x2="1025" y2="172.5" class="grid"/>
+<text x="797" y="74.0" text-anchor="end">2.0</text><line x1="805" y1="70.0" x2="1025" y2="70.0" class="grid"/>
+<rect x="847" y="218.62" width="36" height="261.38" fill="#8fb3ff"/>
+<text x="865.0" y="212.6" text-anchor="middle" class="label">1.275</text>
+<rect x="899" y="457.70" width="36" height="22.30" fill="#7acb8a"/>
+<text x="917.0" y="451.7" text-anchor="middle" class="label">0.109</text>
+<rect x="951" y="313.85" width="36" height="166.15" fill="#ff9f7a"/>
+<text x="969.0" y="307.9" text-anchor="middle" class="label">0.810</text>
+<text x="915.0" y="514" text-anchor="middle">FA (x1000)</text>
+<rect x="360" y="540" width="18" height="14" fill="#8fb3ff"/><text x="385" y="552">002</text>
+<rect x="500" y="540" width="18" height="14" fill="#7acb8a"/><text x="525" y="552">210</text>
+<rect x="640" y="540" width="18" height="14" fill="#ff9f7a"/><text x="665" y="552">310</text>
+<text x="530" y="585" text-anchor="middle" class="note">FA 面板使用 x1000 显示；越低越好，其余指标越高越好。</text>
+</svg>

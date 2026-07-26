@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "version": "v3.1.0",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8,
+  "epochs": 50,
+  "best_loss": 0.003067679237574339,
+  "best_iou": 0.5465782122905027,
+  "model_path": "/root/EV-UAV/log/versions/v3.1.0-max50000-seed316/models/best_iou_seed316.pt",
+  "config": "/root/EV-UAV/log/versions/v3.1.0-max50000-seed316/configs/v310_max50000_seed316.yaml"
+}

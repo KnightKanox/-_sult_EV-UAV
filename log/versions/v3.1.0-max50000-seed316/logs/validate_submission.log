@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "version": "v3.1.0",
+  "seed": 316,
+  "txt_dir": "/root/EV-UAV/log/versions/v3.1.0-max50000-seed316/submission/v310_max50000_seed316_best_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v3.1.0-max50000-seed316/submission/v310_max50000_seed316_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}
