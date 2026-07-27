@@ -1,0 +1,88 @@
+{
+  "comparison": "v4.0.0 vs v3.1.3 vs v2.1.0",
+  "generated_at": "2026-07-26",
+  "metrics_direction": {
+    "iou": "higher_better",
+    "seg_acc": "higher_better",
+    "pd": "higher_better",
+    "fa": "lower_better"
+  },
+  "rows": [
+    {
+      "version": "v4.0.0",
+      "label": "Trajectory-Aware Sparse U-Net",
+      "architecture": "Trajectory-Aware Sparse U-Net + MSTB + geometric gated fusion",
+      "iou": 0.4698802329228083,
+      "seg_acc": 0.8462736237901871,
+      "pd": 0.7904241915161697,
+      "fa": 0.0005560958862550615,
+      "max_events_num": 50000,
+      "input_channel": 8,
+      "threshold": 0.9,
+      "epochs": 50,
+      "optimizer": "Adam",
+      "submission_validation_status": "ok",
+      "submission_txt_count": 24,
+      "notes": "First architecture loop completed; chunked inference avoids large-val OOM.",
+      "delta_iou_vs_v400": 0.0,
+      "delta_seg_acc_vs_v400": 0.0,
+      "delta_pd_vs_v400": 0.0,
+      "delta_fa_vs_v400": 0.0
+    },
+    {
+      "version": "v3.1.3",
+      "label": "no-patchattention EV-SpSegNet",
+      "architecture": "8-channel handcrafted feature EV-SpSegNet, PatchAttention no-op",
+      "iou": 0.7170857336496103,
+      "seg_acc": 0.8076054101914328,
+      "pd": 0.8097438051238975,
+      "fa": 0.0001525642526742518,
+      "max_events_num": 50000,
+      "input_channel": 8,
+      "threshold": 0.9,
+      "epochs": 50,
+      "optimizer": "Adam",
+      "submission_validation_status": "ok",
+      "submission_txt_count": 24,
+      "notes": "Current highest IoU and strong low-FA baseline.",
+      "delta_iou_vs_v400": 0.24720550072680197,
+      "delta_seg_acc_vs_v400": -0.038668213598754275,
+      "delta_pd_vs_v400": 0.019319613607727826,
+      "delta_fa_vs_v400": -0.00040353163358080967
+    },
+    {
+      "version": "v2.1.0",
+      "label": "v002_slope_0p005 improvement suite",
+      "architecture": "4-channel EV-SpSegNet LeakyReLU slope 0.005",
+      "iou": 0.652904051277635,
+      "seg_acc": 0.8101547949806125,
+      "pd": 0.8628727425451491,
+      "fa": 0.00010876072853037739,
+      "max_events_num": 20000,
+      "input_channel": 4,
+      "threshold": "",
+      "epochs": 50,
+      "optimizer": "Adam",
+      "submission_validation_status": "ok",
+      "submission_txt_count": 24,
+      "notes": "Lowest FA and highest PD among this comparison group.",
+      "delta_iou_vs_v400": 0.18302381835482667,
+      "delta_seg_acc_vs_v400": -0.03611882880957462,
+      "delta_pd_vs_v400": 0.0724485510289794,
+      "delta_fa_vs_v400": -0.0004473351577246841
+    }
+  ],
+  "best": {
+    "iou": "v3.1.3",
+    "seg_acc": "v4.0.0",
+    "pd": "v2.1.0",
+    "fa": "v2.1.0"
+  },
+  "conclusion": "v4.0.0 首版 Trajectory-Aware Sparse U-Net 架构闭环成功，Docker 50 epochs 训练、chunked evaluate/submission 和提交校验均完成；但 IoU/PD 低于 v3.1.3/v2.1.0，FA 明显更高。后续 v4.1.0/T3 应聚焦提升轨迹完整度和压低虚警。",
+  "artifact_paths": {
+    "csv": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v4.0.0-trajectory-aware-sparse-unet/charts/v400_v313_v210_comparison.csv",
+    "json": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v4.0.0-trajectory-aware-sparse-unet/charts/v400_v313_v210_comparison.json",
+    "markdown": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v4.0.0-trajectory-aware-sparse-unet/charts/v400_v313_v210_comparison.md",
+    "svg": "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v4.0.0-trajectory-aware-sparse-unet/charts/v400_v313_v210_comparison.svg"
+  }
+}

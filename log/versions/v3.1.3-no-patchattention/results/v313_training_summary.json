@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "version": "v3.1.3",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8,
+  "ablation": "no_patchattention",
+  "epochs": 50,
+  "best_loss": 0.0032423522789031267,
+  "best_iou": 0.7170857336496103,
+  "model_path": "/root/EV-UAV/log/versions/v3.1.3-no-patchattention/models/best_iou_seed316.pt",
+  "config": "/root/EV-UAV/log/versions/v3.1.3-no-patchattention/configs/v313_no_patchattention_seed316.yaml"
+}

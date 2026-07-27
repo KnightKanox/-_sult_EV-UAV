@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "version": "v3.1.3",
+  "seed": 316,
+  "ablation": "no_patchattention",
+  "txt_dir": "/root/EV-UAV/log/versions/v3.1.3-no-patchattention/submission/v313_no_patchattention_seed316_best_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v3.1.3-no-patchattention/submission/v313_no_patchattention_seed316_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}

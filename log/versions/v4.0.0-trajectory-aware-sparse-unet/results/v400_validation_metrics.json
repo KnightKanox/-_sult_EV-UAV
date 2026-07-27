@@ -1,0 +1,21 @@
+{
+  "threshold": 0.9,
+  "iou": 0.4698802329228083,
+  "seg_acc": 0.8462736237901871,
+  "pd": 0.7904241915161697,
+  "fa": 0.0005560958862550615,
+  "tp": 55436,
+  "fp": 52473,
+  "fn": 10070,
+  "gt_positive": 65506,
+  "pred_positive": 107909,
+  "total_events": 1424330,
+  "version": "v4.0.0",
+  "seed": 316,
+  "max_events_num": 50000,
+  "inference_chunk_size": 50000,
+  "input_channel": 8,
+  "optimizer": "Adam",
+  "activation": "LeakyReLU",
+  "no_patchattention": true
+}

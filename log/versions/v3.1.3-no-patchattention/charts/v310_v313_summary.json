@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "version": "v3.1.0",
+    "path": "log/versions/v3.1.0-max50000-seed316/results/v310_validation_metrics.json",
+    "metrics": {
+      "iou": 0.5465782122905027,
+      "seg_acc": 0.8363966659542638,
+      "pd": 0.8481730365392692,
+      "fa": 0.0008104644471221989
+    }
+  },
+  "candidate": {
+    "version": "v3.1.3",
+    "name": "no_patchattention",
+    "path": "log/versions/v3.1.3-no-patchattention/results/v313_validation_metrics.json",
+    "metrics": {
+      "iou": 0.7170857336496103,
+      "seg_acc": 0.8076054101914328,
+      "pd": 0.8097438051238975,
+      "fa": 0.0001525642526742518
+    }
+  },
+  "deltas": {
+    "iou": 0.17050752135910752,
+    "seg_acc": -0.028791255762830925,
+    "pd": -0.03842923141537169,
+    "fa": -0.000657900194447947
+  },
+  "directions": {
+    "iou": "higher_is_better",
+    "seg_acc": "higher_is_better",
+    "pd": "higher_is_better",
+    "fa": "lower_is_better"
+  },
+  "conclusion": "v3.1.3 no-patchattention 相比 v3.1.0 的 IoU 提升、seg_acc 下降、PD 下降、FA 降低；FA 越低越好，因此 no-op PatchAttention 消融在 IoU 和 FA 上更优，但牺牲了 seg_acc 与 PD。"
+}

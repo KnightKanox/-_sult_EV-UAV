@@ -1,0 +1,64 @@
+STRUCTURE:
+  model_name: trajectory_projection_dice
+  input_channel: 8
+  stem_channels: 24
+  stage2_channels: 40
+  stage3_channels: 64
+  bottleneck_channels: 96
+  downsample_strides:
+  - - 2
+    - 2
+    - 2
+  - - 2
+    - 2
+    - 2
+  - - 2
+    - 2
+    - 4
+  no_patchattention: true
+  activation: LeakyReLU
+DATA:
+  root: /root/EV-UAV-dataset
+  whole_t: 8000
+  res:
+  - 346
+  - 260
+TRAIN:
+  epochs: 50
+  batch_size: 1
+  train_workers: 8
+  optim: Adam
+  lr: 0.001
+  k: 3
+  t: 5
+  max_events_num: 50000
+  seed: 316
+  model_save_root: /root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice/models
+  trajectory_projection_dice_weight: 0.3
+  trajectory_projection_dice_mode: xy_mean_projection_dice_train_only
+  auxiliary_supervision: xy_mean_projection_dice_train_only
+TEST:
+  vis: false
+  eval: true
+  roc: true
+  pd_detT: 50
+  correct_thresh: 0.0001
+  save: true
+  model_path: /root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice/models/best_iou_seed316.pt
+EXPERIMENT:
+  version: v4.1.2
+  experiment: trajectory_projection_dice
+  experiment_root: /root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice
+  runtime_experiment_root: /root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice
+  results_dir: /root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice/results
+  models_dir: /root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice/models
+  submission_dir: /root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice/submission
+  cache_dir: /root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice/cache
+  charts_dir: /root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice/charts
+V3_FEATURES_REUSED:
+  feature_k: 32
+  feature_radius: 0.035
+  density_sigma: 0.018
+  linearity_d0: 12.0
+  temporal_tau: 0.02
+  negative_slope: 0.01

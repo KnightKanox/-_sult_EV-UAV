@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "version": "v4.0.0",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8,
+  "optimizer": "Adam",
+  "activation": "LeakyReLU",
+  "epochs": 50,
+  "best_loss": 0.0023622133303433657,
+  "best_iou": 0.4698802329228083,
+  "model_path": "/root/EV-UAV/log/versions/v4.0.0-trajectory-aware-sparse-unet/models/best_iou_seed316.pt",
+  "config": "/root/EV-UAV/log/versions/v4.0.0-trajectory-aware-sparse-unet/configs/v400_trajectory_aware_sparse_unet.yaml"
+}

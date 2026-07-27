@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "input_channel": 8,
+  "batch_file": "None",
+  "pred_shape": [
+    39169,
+    1
+  ],
+  "voxel_shape": [
+    39169,
+    1
+  ],
+  "label_shape": [
+    39169
+  ],
+  "p2v_shape": [
+    39169
+  ]
+}

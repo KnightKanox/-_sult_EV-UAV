@@ -1,0 +1,6 @@
+predict-val:   0%|          | 0/24 [00:00<?, ?sample/s]predict-val:   8%|▊         | 2/24 [00:00<00:01, 11.74sample/s]predict-val:  17%|█▋        | 4/24 [00:00<00:01, 12.16sample/s]predict-val:  29%|██▉       | 7/24 [00:00<00:01, 15.58sample/s]predict-val:  38%|███▊      | 9/24 [00:00<00:00, 15.89sample/s]predict-val:  46%|████▌     | 11/24 [00:00<00:00, 15.93sample/s]predict-val:  54%|█████▍    | 13/24 [00:00<00:00, 16.26sample/s]predict-val:  62%|██████▎   | 15/24 [00:00<00:00, 17.21sample/s]predict-val:  71%|███████   | 17/24 [00:01<00:00, 10.67sample/s]predict-val:  79%|███████▉  | 19/24 [00:01<00:00, 11.91sample/s]predict-val:  88%|████████▊ | 21/24 [00:01<00:00, 13.35sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00,  8.60sample/s]predict-val: 100%|██████████| 24/24 [00:02<00:00, 11.64sample/s]
+{
+  "txt_count": 24,
+  "zip": "/root/EV-UAV/log/versions/v3.1.3-no-patchattention/submission/v313_no_patchattention_seed316_best_submission.zip"
+}
+free(): invalid pointer

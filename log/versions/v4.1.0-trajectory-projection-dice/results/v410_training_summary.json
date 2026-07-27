@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "version": "v4.1.2",
+  "experiment": "trajectory_projection_dice",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8,
+  "optimizer": "Adam",
+  "activation": "LeakyReLU",
+  "epochs": 50,
+  "best_loss": 0.010010477155447006,
+  "best_iou": 0.4382160859417172,
+  "model_path": "/root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice/models/best_iou_seed316.pt",
+  "config": "/root/EV-UAV/log/versions/v4.1.0-trajectory-projection-dice/configs/v410_trajectory_projection_dice.yaml",
+  "trajectory_projection_dice_weight": 0.3,
+  "trajectory_projection_dice_mode": "xy_mean_projection_dice_train_only",
+  "auxiliary_supervision": "xy_mean_projection_dice_train_only",
+  "inference_uses_auxiliary_head": false
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#1f2937}.title{font-size:22px;font-weight:700}.axis{font-size:12px}.label{font-size:13px}.value{font-size:11px}.legend{font-size:13px}</style>
+<text x="460.0" y="34" text-anchor="middle" class="title">v3.1.0 vs v3.1.3 no-patchattention 验证指标</text>
+<text x="460.0" y="57" text-anchor="middle" class="axis">threshold=0.9；FA 越低越好</text>
+<line x1="80" y1="430.00" x2="890" y2="430.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="434.00" text-anchor="end" class="axis">0.000</text>
+<line x1="80" y1="358.00" x2="890" y2="358.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="362.00" text-anchor="end" class="axis">0.190</text>
+<line x1="80" y1="286.00" x2="890" y2="286.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="290.00" text-anchor="end" class="axis">0.380</text>
+<line x1="80" y1="214.00" x2="890" y2="214.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="218.00" text-anchor="end" class="axis">0.570</text>
+<line x1="80" y1="142.00" x2="890" y2="142.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="146.00" text-anchor="end" class="axis">0.760</text>
+<line x1="80" y1="70.00" x2="890" y2="70.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="74.00" text-anchor="end" class="axis">0.950</text>
+<line x1="80" y1="70" x2="80" y2="430" stroke="#374151"/>
+<line x1="80" y1="430" x2="890" y2="430" stroke="#374151"/>
+<rect x="150.25" y="222.87" width="54" height="207.13" fill="#2563eb" rx="2"/>
+<text x="177.25" y="216.87" text-anchor="middle" class="value">0.546578</text>
+<rect x="185.25" y="158.25" width="54" height="271.75" fill="#dc2626" rx="2"/>
+<text x="212.25" y="152.25" text-anchor="middle" class="value">0.717086</text>
+<text x="181.25" y="458" text-anchor="middle" class="label">IoU</text>
+<text x="181.25" y="478" text-anchor="middle" class="axis">Δ +0.170508</text>
+<rect x="352.75" y="113.03" width="54" height="316.97" fill="#2563eb" rx="2"/>
+<text x="379.75" y="107.03" text-anchor="middle" class="value">0.836397</text>
+<rect x="387.75" y="123.95" width="54" height="306.05" fill="#dc2626" rx="2"/>
+<text x="414.75" y="117.95" text-anchor="middle" class="value">0.807605</text>
+<text x="383.75" y="458" text-anchor="middle" class="label">seg_acc</text>
+<text x="383.75" y="478" text-anchor="middle" class="axis">Δ -0.028791</text>
+<rect x="555.25" y="108.57" width="54" height="321.43" fill="#2563eb" rx="2"/>
+<text x="582.25" y="102.57" text-anchor="middle" class="value">0.848173</text>
+<rect x="590.25" y="123.13" width="54" height="306.87" fill="#dc2626" rx="2"/>
+<text x="617.25" y="117.13" text-anchor="middle" class="value">0.809744</text>
+<text x="586.25" y="458" text-anchor="middle" class="label">PD</text>
+<text x="586.25" y="478" text-anchor="middle" class="axis">Δ -0.038429</text>
+<rect x="757.75" y="429.69" width="54" height="0.31" fill="#2563eb" rx="2"/>
+<text x="784.75" y="423.69" text-anchor="middle" class="value">0.000810</text>
+<rect x="792.75" y="429.94" width="54" height="0.06" fill="#dc2626" rx="2"/>
+<text x="819.75" y="423.94" text-anchor="middle" class="value">0.000153</text>
+<text x="788.75" y="458" text-anchor="middle" class="label">FA</text>
+<text x="788.75" y="478" text-anchor="middle" class="axis">Δ -0.000658</text>
+<rect x="670" y="75" width="16" height="16" fill="#2563eb"/>
+<text x="694" y="88" class="legend">v3.1.0</text>
+<rect x="670" y="100" width="16" height="16" fill="#dc2626"/>
+<text x="694" y="113" class="legend">v3.1.3 no-patchattention</text>
+</svg>

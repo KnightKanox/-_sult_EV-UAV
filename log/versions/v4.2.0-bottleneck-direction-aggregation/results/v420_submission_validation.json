@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "version": "v4.2.0",
+  "experiment": "bottleneck_direction_aggregation",
+  "seed": 316,
+  "txt_dir": "/root/EV-UAV/log/versions/v4.2.0-bottleneck-direction-aggregation/submission/v420_bottleneck_direction_aggregation_seed316_best_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v4.2.0-bottleneck-direction-aggregation/submission/v420_bottleneck_direction_aggregation_seed316_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}

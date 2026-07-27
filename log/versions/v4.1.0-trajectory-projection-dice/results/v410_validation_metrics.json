@@ -1,0 +1,23 @@
+{
+  "threshold": 0.9,
+  "iou": 0.4382160859417172,
+  "seg_acc": 0.8799041309193051,
+  "pd": 0.8538429231415372,
+  "fa": 0.0011525437507880782,
+  "tp": 57639,
+  "fp": 66025,
+  "fn": 7867,
+  "gt_positive": 65506,
+  "pred_positive": 123664,
+  "total_events": 1424330,
+  "version": "v4.1.2",
+  "experiment": "trajectory_projection_dice",
+  "seed": 316,
+  "max_events_num": 50000,
+  "inference_chunk_size": 50000,
+  "input_channel": 8,
+  "optimizer": "Adam",
+  "activation": "LeakyReLU",
+  "no_patchattention": true,
+  "inference_uses_auxiliary_head": false
+}
