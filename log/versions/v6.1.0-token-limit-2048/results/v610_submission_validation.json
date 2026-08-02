@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "version": "v6.1.0",
+  "experiment": "token_limit_2048",
+  "seed": 316,
+  "txt_dir": "/root/EV-UAV/log/versions/v6.1.0-token-limit-2048/submission/v610_token_limit_2048_seed316_best_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v6.1.0-token-limit-2048/submission/v610_token_limit_2048_seed316_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}
