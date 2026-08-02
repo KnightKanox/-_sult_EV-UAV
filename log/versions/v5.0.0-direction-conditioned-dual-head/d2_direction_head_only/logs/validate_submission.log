@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "version": "v5.0.0",
+  "experiment": "direction_head_only",
+  "diagnostic": "D2_direction_head_only",
+  "seed": 316,
+  "txt_dir": "log/versions/v5.0.0-direction-conditioned-dual-head/d2_direction_head_only/submission/v500_d2_direction_head_only_seed316_best_submission/txt",
+  "zip": "log/versions/v5.0.0-direction-conditioned-dual-head/d2_direction_head_only/submission/v500_d2_direction_head_only_seed316_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}

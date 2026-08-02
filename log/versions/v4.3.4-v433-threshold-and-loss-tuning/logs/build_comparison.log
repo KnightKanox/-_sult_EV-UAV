@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/media/sult/山江冬夏/训练集、验证集/EV-UAV/log/versions/v4.3.4-v433-threshold-and-loss-tuning/v434_v433_threshold_and_loss_tuning.py", line 16, in <module>
+    if not PROJECT_ROOT.exists():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 862, in exists
+    self.stat(follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.12/pathlib.py", line 842, in stat
+    return os.stat(self, follow_symlinks=follow_symlinks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/EV-UAV'

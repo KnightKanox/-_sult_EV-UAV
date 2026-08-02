@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "version": "v6.0.0",
+  "experiment": "transformer_on_v450",
+  "seed": 316,
+  "txt_dir": "/root/EV-UAV/log/versions/v6.0.0-transformer-on-v450/submission/v600_transformer_on_v450_seed316_best_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v6.0.0-transformer-on-v450/submission/v600_transformer_on_v450_seed316_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}

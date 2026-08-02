@@ -1,0 +1,2 @@
+epoch,mean_loss,min_loss,max_loss,best_loss,val_iou,val_seg_acc,val_pd,val_fa
+0,0.45596417032106956,0.2614782750606537,0.7628440856933594,0.2614782750606537,0.0,0.0,0.0,0.0

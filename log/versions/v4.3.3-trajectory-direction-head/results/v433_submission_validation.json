@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "version": "v4.3.3",
+  "experiment": "trajectory_direction_head",
+  "seed": 316,
+  "txt_dir": "/root/EV-UAV/log/versions/v4.3.3-trajectory-direction-head/submission/v433_trajectory_direction_head_seed316_best_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v4.3.3-trajectory-direction-head/submission/v433_trajectory_direction_head_seed316_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}

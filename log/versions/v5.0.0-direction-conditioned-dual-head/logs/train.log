@@ -1,0 +1,20 @@
+v500-epoch-0:   0%|          | 0/99 [00:00<?, ?batch/s]v500-epoch-0:   0%|          | 0/99 [00:18<?, ?batch/s]
+Traceback (most recent call last):
+  File "/root/EV-UAV/log/versions/v5.0.0-direction-conditioned-dual-head/v500_direction_conditioned_dual_head.py", line 1253, in <module>
+    main()
+  File "/root/EV-UAV/log/versions/v5.0.0-direction-conditioned-dual-head/v500_direction_conditioned_dual_head.py", line 1249, in main
+    args.func(args)
+  File "/root/EV-UAV/log/versions/v5.0.0-direction-conditioned-dual-head/v500_direction_conditioned_dual_head.py", line 1046, in command_train
+    train_one(args)
+  File "/root/EV-UAV/log/versions/v5.0.0-direction-conditioned-dual-head/v500_direction_conditioned_dual_head.py", line 1006, in train_one
+    dir_loss, dir_cosine_loss, dir_confidence_bce = direction_confidence_loss(direction_pred, direction_confidence, v_gt, conf_gt, dir_valid_mask)
+  File "/root/EV-UAV/log/versions/v5.0.0-direction-conditioned-dual-head/v500_direction_conditioned_dual_head.py", line 888, in direction_confidence_loss
+    bce_loss = torch.nn.functional.binary_cross_entropy(confidence_pred.clamp(1e-6, 1.0 - 1e-6), conf_target)
+  File "/root/exit/envs/evuav/lib/python3.8/site-packages/torch/nn/functional.py", line 2893, in binary_cross_entropy
+    return torch._C._nn.binary_cross_entropy(input, target, weight, reduction_enum)
+RuntimeError: torch.nn.functional.binary_cross_entropy and torch.nn.BCELoss are unsafe to autocast.
+Many models use a sigmoid layer right before the binary cross entropy layer.
+In this case, combine the two layers using torch.nn.functional.binary_cross_entropy_with_logits
+or torch.nn.BCEWithLogitsLoss.  binary_cross_entropy_with_logits and BCEWithLogits are
+safe to autocast.
+free(): invalid pointer

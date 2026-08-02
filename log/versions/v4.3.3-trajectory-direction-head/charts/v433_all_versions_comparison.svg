@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="600" viewBox="0 0 1360 600">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="680.0" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#111827">v4.3.3 vs v4.2.0 vs v4.1.0 vs v4.0.0 vs v3.1.3 vs v2.1.0 — All Versions Metrics</text>
+
+<!-- IoU subplot -->
+<line x1="134.0" y1="60" x2="134.0" y2="380" stroke="#374151" stroke-width="1"/>
+<line x1="134.0" y1="380" x2="354.0" y2="380" stroke="#374151" stroke-width="1"/>
+<!-- IoU y-axis gridlines: range 0.40 to 0.80, 320px -->
+<line x1="134.0" y1="380.0" x2="354.0" y2="380.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="128.0" y="384.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.40</text>
+<line x1="134.0" y1="300.0" x2="354.0" y2="300.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="128.0" y="304.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.50</text>
+<line x1="134.0" y1="220.0" x2="354.0" y2="220.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="128.0" y="224.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.60</text>
+<line x1="134.0" y1="140.0" x2="354.0" y2="140.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="128.0" y="144.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.70</text>
+<line x1="134.0" y1="60.0" x2="354.0" y2="60.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="128.0" y="64.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.80</text>
+<text x="244.0" y="402" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">IoU</text>
+
+<!-- seg_acc subplot -->
+<line x1="388.0" y1="60" x2="388.0" y2="380" stroke="#374151" stroke-width="1"/>
+<line x1="388.0" y1="380" x2="608.0" y2="380" stroke="#374151" stroke-width="1"/>
+<line x1="388.0" y1="380.0" x2="608.0" y2="380.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="382.0" y="384.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.78</text>
+<line x1="388.0" y1="300.0" x2="608.0" y2="300.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="382.0" y="304.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.83</text>
+<line x1="388.0" y1="220.0" x2="608.0" y2="220.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="382.0" y="224.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.88</text>
+<line x1="388.0" y1="140.0" x2="608.0" y2="140.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="382.0" y="144.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.93</text>
+<line x1="388.0" y1="60.0" x2="608.0" y2="60.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="382.0" y="64.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.98</text>
+<text x="498.0" y="402" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">seg_acc</text>
+
+<!-- PD subplot -->
+<line x1="642.0" y1="60" x2="642.0" y2="380" stroke="#374151" stroke-width="1"/>
+<line x1="642.0" y1="380" x2="862.0" y2="380" stroke="#374151" stroke-width="1"/>
+<line x1="642.0" y1="380.0" x2="862.0" y2="380.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="636.0" y="384.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.76</text>
+<line x1="642.0" y1="300.0" x2="862.0" y2="300.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="636.0" y="304.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.82</text>
+<line x1="642.0" y1="220.0" x2="862.0" y2="220.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="636.0" y="224.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.88</text>
+<line x1="642.0" y1="140.0" x2="862.0" y2="140.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="636.0" y="144.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.94</text>
+<line x1="642.0" y1="60.0" x2="862.0" y2="60.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="636.0" y="64.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">1.00</text>
+<text x="752.0" y="402" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">PD</text>
+
+<!-- FA subplot -->
+<line x1="896.0" y1="60" x2="896.0" y2="380" stroke="#374151" stroke-width="1"/>
+<line x1="896.0" y1="380" x2="1116.0" y2="380" stroke="#374151" stroke-width="1"/>
+<line x1="896.0" y1="380.0" x2="1116.0" y2="380.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="890.0" y="384.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.00000</text>
+<line x1="896.0" y1="300.0" x2="1116.0" y2="300.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="890.0" y="304.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.00035</text>
+<line x1="896.0" y1="220.0" x2="1116.0" y2="220.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="890.0" y="224.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.00070</text>
+<line x1="896.0" y1="140.0" x2="1116.0" y2="140.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="890.0" y="144.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.00105</text>
+<line x1="896.0" y1="60.0" x2="1116.0" y2="60.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="890.0" y="64.0" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">0.00140</text>
+<text x="1006.0" y="402" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">FA</text>
+
+<!-- IoU bars: [v4.3.3, v4.2.0, v4.1.0, v4.0.0, v3.1.3, v2.1.0], range 0.40..0.80, y=380-320*(iou-0.40)/0.40 -->
+<rect x="136.0" y="103.93189728153521" width="32" height="276.0681027184648" fill="#7c3aed" rx="2"/>
+<text x="152.0" y="99.93189728153521" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.745</text>
+<rect x="172.0" y="227.50185172032432" width="32" height="152.49814827967568" fill="#8b5cf6" rx="2"/>
+<text x="188.0" y="223.50185172032432" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.591</text>
+<rect x="208.0" y="349.42713124662624" width="32" height="30.57286875337376" fill="#dc2626" rx="2"/>
+<text x="224.0" y="345.42713124662624" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.438</text>
+<rect x="244.0" y="324.0958136617533" width="32" height="55.9041863382467" fill="#2563eb" rx="2"/>
+<text x="260.0" y="320.0958136617533" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.470</text>
+<rect x="280.0" y="126.33141308031175" width="32" height="253.66858691968825" fill="#16a34a" rx="2"/>
+<text x="296.0" y="122.33141308031175" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.717</text>
+<rect x="316.0" y="177.676758977892" width="32" height="202.323241022108" fill="#f97316" rx="2"/>
+<text x="332.0" y="173.676758977892" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.653</text>
+
+<!-- seg_acc bars: range 0.78..0.98, y=380-320*(acc-0.78)/0.20 -->
+<rect x="390.0" y="273.69352425731994" width="32" height="106.30647574268006" fill="#7c3aed" rx="2"/>
+<text x="406.0" y="269.69352425731994" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.846</text>
+<rect x="426.0" y="206.20657649680958" width="32" height="173.79342350319042" fill="#8b5cf6" rx="2"/>
+<text x="442.0" y="202.20657649680958" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.889</text>
+<rect x="462.0" y="220.15339052911183" width="32" height="159.84660947088817" fill="#dc2626" rx="2"/>
+<text x="478.0" y="216.15339052911183" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.880</text>
+<rect x="498.0" y="273.96220193570064" width="32" height="106.03779806429936" fill="#2563eb" rx="2"/>
+<text x="514.0" y="269.96220193570064" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.846</text>
+<rect x="534.0" y="335.83134369370755" width="32" height="44.16865630629245" fill="#16a34a" rx="2"/>
+<text x="550.0" y="331.83134369370755" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.808</text>
+<rect x="570.0" y="331.75232803102" width="32" height="48.24767196898" fill="#f97316" rx="2"/>
+<text x="586.0" y="327.75232803102" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.810</text>
+
+<!-- PD bars: range 0.76..1.00, y=380-320*(pd-0.76)/0.24 -->
+<rect x="644.0" y="306.3950720985583" width="32" height="73.6049279014417" fill="#7c3aed" rx="2"/>
+<text x="660.0" y="302.3950720985583" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.815</text>
+<rect x="680.0" y="241.43637127257465" width="32" height="138.56362872742535" fill="#8b5cf6" rx="2"/>
+<text x="696.0" y="237.43637127257465" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.864</text>
+<rect x="716.0" y="254.87610247795038" width="32" height="125.12389752204962" fill="#dc2626" rx="2"/>
+<text x="732.0" y="250.87610247795038" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.854</text>
+<rect x="752.0" y="339.4344113117737" width="32" height="40.565588688226285" fill="#2563eb" rx="2"/>
+<text x="768.0" y="335.4344113117737" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.790</text>
+<rect x="788.0" y="313.67492650146994" width="32" height="66.32507349853006" fill="#16a34a" rx="2"/>
+<text x="804.0" y="309.67492650146994" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.810</text>
+<rect x="824.0" y="242.8363432731345" width="32" height="137.1636567268655" fill="#f97316" rx="2"/>
+<text x="840.0" y="238.8363432731345" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.863</text>
+
+<!-- FA bars: scale max=0.0014, y=380-320*(fa/0.0014) -->
+<rect x="898.0" y="324.6459231447713" width="32" height="55.35407685522869" fill="#7c3aed" rx="2"/>
+<text x="914.0" y="320.6459231447713" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.000242</text>
+<rect x="934.0" y="337.94861682207885" width="32" height="42.05138317792115" fill="#8b5cf6" rx="2"/>
+<text x="950.0" y="333.94861682207885" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.000184</text>
+<rect x="970.0" y="116.56142853410565" width="32" height="263.43857146589435" fill="#dc2626" rx="2"/>
+<text x="986.0" y="112.56142853410565" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.001153</text>
+<rect x="1006.0" y="252.89236885731035" width="32" height="127.10763114268965" fill="#2563eb" rx="2"/>
+<text x="1022.0" y="248.89236885731035" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.000556</text>
+<rect x="1042.0" y="345.1281708159144" width="32" height="34.871829184085606" fill="#16a34a" rx="2"/>
+<text x="1058.0" y="341.1281708159144" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.000153</text>
+<rect x="1078.0" y="355.1404048787136" width="32" height="24.8595951212864" fill="#f97316" rx="2"/>
+<text x="1094.0" y="351.1404048787136" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#374151">0.000109</text>
+
+<!-- Legend -->
+<rect x="86" y="440" width="14" height="14" fill="#7c3aed" rx="2"/>
+<text x="106" y="452" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">v4.3.3 Trajectory Direction Head (NEW SOTA IoU=0.745)</text>
+<rect x="450" y="440" width="14" height="14" fill="#8b5cf6" rx="2"/>
+<text x="470" y="452" font-family="Arial, sans-serif" font-size="12" fill="#111827">v4.2.0 Bottleneck Dir-Agg (skipped) IoU=0.591</text>
+<rect x="730" y="440" width="14" height="14" fill="#dc2626" rx="2"/>
+<text x="750" y="452" font-family="Arial, sans-serif" font-size="12" fill="#111827">v4.1.0 T-Aware U-Net + Dice IoU=0.438</text>
+<rect x="86" y="466" width="14" height="14" fill="#2563eb" rx="2"/>
+<text x="106" y="478" font-family="Arial, sans-serif" font-size="12" fill="#111827">v4.0.0 T-Aware U-Net (base) IoU=0.470</text>
+<rect x="450" y="466" width="14" height="14" fill="#16a34a" rx="2"/>
+<text x="470" y="478" font-family="Arial, sans-serif" font-size="12" fill="#111827">v3.1.3 no-PatchAttention EV-SpSegNet IoU=0.717</text>
+<rect x="730" y="466" width="14" height="14" fill="#f97316" rx="2"/>
+<text x="750" y="478" font-family="Arial, sans-serif" font-size="12" fill="#111827">v2.1.0 v002_slope_0p005 IoU=0.653</text>
+<text x="86" y="500" font-family="Arial, sans-serif" font-size="11" fill="#4b5563">FA scale max=0.0014, lower is better. IoU/seg_acc/PD: higher is better.</text>
+<text x="86" y="518" font-family="Arial, sans-serif" font-size="11" fill="#4b5563">v4.3.3 direction_aggregation_skipped=true; gain from Dice + Direction Prediction Head auxiliary supervision (L = L_main + 0.3*L_traj + 0.2*L_dir).</text>
+<text x="86" y="536" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">★ v4.3.3 NEW SOTA: IoU=0.745085, surpassing v3.1.3 (0.717086). v2.1.0 still lowest FA (0.000109).</text>
+</svg>

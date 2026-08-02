@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "version": "v4.5.0",
+  "experiment": "trajectory_direction_head",
+  "seed": 316,
+  "txt_dir": "log/versions/v4.5.0-input-normalization/submission/v450_input_normalization_seed316_best_submission/txt",
+  "zip": "log/versions/v4.5.0-input-normalization/submission/v450_input_normalization_seed316_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}

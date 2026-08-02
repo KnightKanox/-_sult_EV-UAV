@@ -1,0 +1,149 @@
+{
+  "version": "v4.5.0",
+  "experiment": "trajectory_direction_head",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8,
+  "optimizer": "Adam",
+  "activation": "LeakyReLU",
+  "model_class": "TrajectoryAwareSparseUNet",
+  "channel_schedule": [
+    24,
+    40,
+    64,
+    96
+  ],
+  "downsample_strides": [
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      4
+    ]
+  ],
+  "no_patchattention": true,
+  "bottleneck_direction_aggregation": true,
+  "direction_aggregation_skipped": false,
+  "trajectory_direction_head": true,
+  "direction_head_hidden": 128,
+  "direction_neighbor_k": 16,
+  "direction_head_params": 29827,
+  "temporal_weight_sums": {
+    "stage1.0": 1.0,
+    "stage1.1": 1.0,
+    "stage2.0": 1.0,
+    "stage2.1": 1.0,
+    "stage3.0": 1.0,
+    "stage3.1": 1.0,
+    "bottleneck_mstb": 1.0,
+    "decoder3.refine": 1.0,
+    "decoder2.refine": 1.0,
+    "decoder1.refine": 1.0
+  },
+  "temporal_weights_sum_to_one": true,
+  "trajectory_projection_dice_weight": 0.3,
+  "trajectory_direction_weight": 0.2,
+  "auxiliary_supervision": "main_output_xy_projection_dice_train_only+direction_head",
+  "features": {
+    "status": "ok",
+    "sample": "/root/EV-UAV-dataset/train/train_000.npz",
+    "rows": 39169,
+    "feature_shape": [
+      39169,
+      4
+    ],
+    "finite": true,
+    "min": [
+      0.0,
+      0.0,
+      0.0,
+      0.3570840060710907
+    ],
+    "max": [
+      1.0,
+      0.900613009929657,
+      1.0,
+      1.0
+    ]
+  },
+  "normalized_features": {
+    "status": "ok",
+    "sample": "/root/EV-UAV-dataset/train/train_000.npz",
+    "rows": 39169,
+    "feature_shape": [
+      39169,
+      8
+    ],
+    "finite": true,
+    "min": [
+      -1.7693599462509155,
+      -1.642225980758667,
+      -1.7092219591140747,
+      -1.4846539497375488,
+      -2.2975809574127197,
+      -1.851343035697937,
+      -1.0335240364074707,
+      -3.5026159286499023
+    ],
+    "max": [
+      1.9044749736785889,
+      1.7257980108261108,
+      1.7614450454711914,
+      0.6735569834709167,
+      1.687298059463501,
+      3.217318058013916,
+      1.387334942817688,
+      3.217129945755005
+    ],
+    "raw_mean": [
+      0.48681798577308655,
+      0.4043309986591339,
+      0.47893399000167847,
+      0.9648190140724182,
+      0.24987100064754486,
+      0.3366979956626892,
+      0.9378799796104431,
+      0.6682530045509338
+    ],
+    "raw_std": [
+      0.24921700358390808,
+      0.23494300246238708,
+      0.27824699878692627,
+      0.18420900404453278,
+      0.22244000434875488,
+      0.16189199686050415,
+      0.21698099374771118,
+      0.11324500292539597
+    ],
+    "normalized_mean": [
+      0.05541300028562546,
+      -0.12795400619506836,
+      -0.004699999932199717,
+      0.5977659821510315,
+      -1.3018779754638672,
+      0.043595001101493835,
+      1.2366299629211426,
+      -0.2502819895744324
+    ],
+    "normalized_std": [
+      0.9341769814491272,
+      0.8798980116844177,
+      0.9902870059013367,
+      0.39771199226379395,
+      0.8864009976387024,
+      0.9111279845237732,
+      0.5251359939575195,
+      1.1836340427398682
+    ]
+  },
+  "seconds": 0.096
+}

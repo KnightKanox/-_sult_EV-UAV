@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "version": "v4.3.4",
+  "threshold": 0.92,
+  "txt_dir": "/root/EV-UAV/log/versions/v4.3.4-v433-threshold-and-loss-tuning/submission/v434_v433_best_iou_threshold_tuned_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v4.3.4-v433-threshold-and-loss-tuning/submission/v434_v433_best_iou_threshold_tuned_submission.zip",
+  "txt_count": 24,
+  "expected_txt_count": 24,
+  "zip_count": 24,
+  "total_lines": 1424330,
+  "field_check": "x y t p label",
+  "label_check": "binary 0/1",
+  "order_check": "aligned_with_original_ev",
+  "errors": []
+}

@@ -1,0 +1,19 @@
+{
+  "config": "log/versions/v5.0.0-direction-conditioned-dual-head/d2_direction_head_only/configs/v500_d2_direction_head_only.yaml",
+  "version": "v5.0.0",
+  "experiment": "direction_head_only",
+  "diagnostic": "D2_direction_head_only",
+  "input_channel": 8,
+  "max_events_num": 50000,
+  "optimizer": "Adam",
+  "seed": 316,
+  "trajectory_projection_dice_weight": 0.3,
+  "trajectory_direction_weight": 0.1,
+  "direction_head_hidden": 128,
+  "direction_neighbor_k": 16,
+  "bottleneck_direction_aggregation": false,
+  "inference_uses_direction_aggregation": false,
+  "direction_aggregation_skipped": "disabled_by_diagnostic",
+  "aggregation_apply_ratio": 0.0,
+  "trajectory_direction_head": true
+}

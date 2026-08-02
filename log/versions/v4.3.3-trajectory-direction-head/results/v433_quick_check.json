@@ -1,0 +1,79 @@
+{
+  "version": "v4.3.3",
+  "experiment": "trajectory_direction_head",
+  "seed": 316,
+  "max_events_num": 50000,
+  "input_channel": 8,
+  "optimizer": "Adam",
+  "activation": "LeakyReLU",
+  "model_class": "TrajectoryAwareSparseUNet",
+  "channel_schedule": [
+    24,
+    40,
+    64,
+    96
+  ],
+  "downsample_strides": [
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      4
+    ]
+  ],
+  "no_patchattention": true,
+  "bottleneck_direction_aggregation": true,
+  "direction_aggregation_skipped": false,
+  "trajectory_direction_head": true,
+  "direction_head_hidden": 128,
+  "direction_neighbor_k": 16,
+  "direction_head_params": 29827,
+  "temporal_weight_sums": {
+    "stage1.0": 1.0,
+    "stage1.1": 1.0,
+    "stage2.0": 1.0,
+    "stage2.1": 1.0,
+    "stage3.0": 1.0,
+    "stage3.1": 1.0,
+    "bottleneck_mstb": 1.0,
+    "decoder3.refine": 1.0,
+    "decoder2.refine": 1.0,
+    "decoder1.refine": 1.0
+  },
+  "temporal_weights_sum_to_one": true,
+  "trajectory_projection_dice_weight": 0.3,
+  "trajectory_direction_weight": 0.2,
+  "auxiliary_supervision": "main_output_xy_projection_dice_train_only+direction_head",
+  "features": {
+    "status": "ok",
+    "sample": "/root/EV-UAV-dataset/train/train_000.npz",
+    "rows": 39169,
+    "feature_shape": [
+      39169,
+      4
+    ],
+    "finite": true,
+    "min": [
+      0.0,
+      0.0,
+      0.0,
+      0.3570840060710907
+    ],
+    "max": [
+      1.0,
+      0.900613009929657,
+      1.0,
+      1.0
+    ]
+  },
+  "seconds": 1.573
+}

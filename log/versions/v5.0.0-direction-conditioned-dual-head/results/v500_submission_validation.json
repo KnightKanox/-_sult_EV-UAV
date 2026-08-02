@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "version": "v5.0.0",
+  "experiment": "direction_conditioned_dual_head",
+  "seed": 316,
+  "txt_dir": "/root/EV-UAV/log/versions/v5.0.0-direction-conditioned-dual-head/submission/v500_direction_conditioned_dual_head_seed316_best_submission/txt",
+  "zip": "/root/EV-UAV/log/versions/v5.0.0-direction-conditioned-dual-head/submission/v500_direction_conditioned_dual_head_seed316_best_submission.zip",
+  "txt_count": 24,
+  "errors": []
+}

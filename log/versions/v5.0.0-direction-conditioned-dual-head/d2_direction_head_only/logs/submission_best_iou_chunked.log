@@ -1,0 +1,6 @@
+predict-val:   0%|          | 0/24 [00:00<?, ?sample/s]predict-val:   4%|▍         | 1/24 [00:00<00:03,  6.14sample/s]predict-val:   8%|▊         | 2/24 [00:00<00:03,  6.32sample/s]predict-val:  12%|█▎        | 3/24 [00:00<00:03,  6.62sample/s]predict-val:  17%|█▋        | 4/24 [00:00<00:02,  6.81sample/s]predict-val:  25%|██▌       | 6/24 [00:00<00:01,  9.88sample/s]predict-val:  33%|███▎      | 8/24 [00:00<00:01, 12.19sample/s]predict-val:  42%|████▏     | 10/24 [00:01<00:01,  9.48sample/s]predict-val:  50%|█████     | 12/24 [00:01<00:01,  9.77sample/s]predict-val:  58%|█████▊    | 14/24 [00:01<00:00, 10.96sample/s]predict-val:  67%|██████▋   | 16/24 [00:02<00:01,  6.31sample/s]predict-val:  75%|███████▌  | 18/24 [00:02<00:00,  7.93sample/s]predict-val:  83%|████████▎ | 20/24 [00:02<00:00,  9.41sample/s]predict-val:  92%|█████████▏| 22/24 [00:02<00:00, 10.73sample/s]predict-val: 100%|██████████| 24/24 [00:03<00:00,  4.90sample/s]predict-val: 100%|██████████| 24/24 [00:03<00:00,  7.21sample/s]
+{
+  "txt_count": 24,
+  "zip": "/root/EV-UAV/log/versions/v5.0.0-direction-conditioned-dual-head/d2_direction_head_only/submission/v500_d2_direction_head_only_seed316_best_submission.zip",
+  "inference_chunk_size": 50000
+}
